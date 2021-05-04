@@ -1,0 +1,65 @@
+html{
+    font-family: sans-serif;
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 30px;
+    
+}
+
+h1{
+    font-size: 30px;
+    color: black;
+}
+
+.menu-section{
+    padding: 40px 0 0 0 ;
+    display: inline-block;
+    list-style: none;
+    color: black;
+
+}
+
+.img-logo{
+    image-orientation:initial;
+    max-height: 100px;
+    margin: 20px 15px 15px 500px ;
+    border-bottom: 1px red;
+    float: left;
+}
+.menu-li{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    display: block;
+
+}
+
+.menu-li:hover{
+    color: rgb(223, 52, 52);
+    transition-property: all;
+    transition-duration: 0.35s;
+    transition-timing-function:ease-in-out;
+    transition-delay: 0s;
+}
+
+ul li{
+    display: inline-block;
+    box-sizing: border-box;
+    
+}
+
+#section-article{
+    padding-top: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+.article-empresa-content{
+    text-indent: unset;
+    color: #8f969c;
+    x
+    
+}
+
