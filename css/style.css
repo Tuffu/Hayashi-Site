@@ -5,7 +5,6 @@ html{
 }
 
 p, b{
-    color: rgb(139, 139, 139);
     font-size: 15px;
     letter-spacing: 0.2px;
     
@@ -15,13 +14,12 @@ h1, h2{
     font-size: 35px;
     text-align: center;
 }
-ul li{
-    list-style: none;
-}
+
 
 #top-header{
     display: block;
     border-bottom: 1px solid red;
+    padding-bottom: 20px;
 }
 
 .max-width{
@@ -36,58 +34,68 @@ ul li{
     clear: both;
 }
 
-img{
-    border-style: none;
+.top-header-logo{
+    display: inline-block;
+    
 }
 
-.img-logo{
-    max-width: 25%; 
-    margin-top: 15px;
+img{
     float: left;
+}
 
+
+.img-logo{
+    max-width: auto;
+    padding-top: 10px; 
 }
 
 .top-nav{
-    margin-top: 50px;
-    float: right;
-    padding-right: 39px;
+    background: red;
+    text-align: center;
 }
 
 .top-nav ul{
-    margin: 0;
+    margin-top: 10px;
     padding: 0;
     list-style: none;
 }
 
-.top-nav ul li{
-    text-align: center;
-    display: inline-block;
-
-}
-
-.top-nav a{
-    text-decoration: none;
-    text-indent: 15px;
+.top-nav a {
     color: black;
+    text-decoration: none;
+    padding: 0.7em;
     display: block;
-    font-size: 12px;
+    
 }
 
-.menu-li:hover{
-    color: rgb(197, 64, 64);
-    transition-property: all;
-    transition-duration: 0.31s;
-    transition-timing-function: ease-in-out;
-    transition-delay: 0s;
+ .top-nav li :hover{
+    color: white;
+    transition: 0.3s ease-in-out;
 }
 
 #section-article{
-    padding-top: 50px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid red;
 
 }
 
-.container{
+#section-article p{
+    color: rgb(139, 139, 139);
+}
+
+
+#solution-content{
+    padding: 25px;
     border-bottom: 1px solid red;
+}
+
+#solution-content p{ 
+    color: rgb(139, 139, 139);
+    
+}
+
+.container{
     padding-bottom: 30px;
 }
 
@@ -104,19 +112,65 @@ img{
     padding: 0;
     margin: 0, 30px, 0, 0;
     font-size: 40px;
-   
-    
+ 
 }
 .services-icons i{
     transition: all 0.3s cubic-bezier(.45,.05,.55,.95) 0s;
 }
 
-
-.media-body{
-    
-}
 .service-area h3{
     font-weight: 600;
     font-size: 20px;
+}
+.client-body h3{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.client-body p{
+    padding-top: 20px;
+    letter-spacing: 0.3px;
+}
+
+.image-content{
+   display: block; 
+}
+
+.img-client{
+    border-radius: 100%;
+    max-width: 70px;
+    float: left;
+}
+
+.main-footer{
+    background: red;
+}
+
+@media screen and (min-width: 70.7em) {
+
+
+    .top-nav{
+        background: transparent;
+        float: right;
+        margin-top: 25px;
+        border-style: none;
+    }
+    .top-nav li{
+        display: inline-block;
+    }
+    .top-nav li :hover{
+        color: red;
+        transition: 0.3s ease-in-out;
+    }
+
+   .top-header-logo{
+       box-sizing: content-box;
+       display: inline;
+       float: none;
+       position: static;
+       z-index: auto;
+   }
+   
 }
 
