@@ -1,65 +1,122 @@
 html{
-    font-family: sans-serif;
+    font-family: 'Open Sans';
+    line-height: 25px;
     
+}
+
+p, b{
+    color: rgb(139, 139, 139);
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    
+}
+
+h1, h2{
+    font-size: 35px;
+    text-align: center;
+}
+ul li{
+    list-style: none;
+}
+
+#top-header{
+    display: block;
+    border-bottom: 1px solid red;
+}
+
+.max-width{
+    max-width: 1124px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-    line-height: 30px;
-    
 }
 
-h1{
-    font-size: 30px;
-    color: black;
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
 }
 
-.menu-section{
-    padding: 40px 0 0 0 ;
-    display: inline-block;
-    list-style: none;
-    color: black;
-
+img{
+    border-style: none;
 }
 
 .img-logo{
-    image-orientation:initial;
-    max-height: 100px;
-    margin: 20px 15px 15px 500px ;
-    border-bottom: 1px red;
+    max-width: 25%; 
+    margin-top: 15px;
     float: left;
-}
-.menu-li{
-    text-decoration: none;
-    color: black;
-    margin-right: 10px;
-    display: block;
 
+}
+
+.top-nav{
+    margin-top: 50px;
+    float: right;
+    padding-right: 39px;
+}
+
+.top-nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.top-nav ul li{
+    text-align: center;
+    display: inline-block;
+
+}
+
+.top-nav a{
+    text-decoration: none;
+    text-indent: 15px;
+    color: black;
+    display: block;
+    font-size: 12px;
 }
 
 .menu-li:hover{
-    color: rgb(223, 52, 52);
+    color: rgb(197, 64, 64);
     transition-property: all;
-    transition-duration: 0.35s;
-    transition-timing-function:ease-in-out;
+    transition-duration: 0.31s;
+    transition-timing-function: ease-in-out;
     transition-delay: 0s;
-}
-
-ul li{
-    display: inline-block;
-    box-sizing: border-box;
-    
 }
 
 #section-article{
     padding-top: 50px;
-    display: inline-block;
-    text-align: center;
+
 }
 
-.article-empresa-content{
-    text-indent: unset;
-    color: #8f969c;
-    x
+.container{
+    border-bottom: 1px solid red;
+    padding-bottom: 30px;
+}
+
+.solution-content{
+    padding-top: 40px;
+}
+.service-area{
+    padding-bottom: 20px;
+}
+
+.services-icons{
+    color: red;
+    float: left;
+    padding: 0;
+    margin: 0, 30px, 0, 0;
+    font-size: 40px;
+   
     
+}
+.services-icons i{
+    transition: all 0.3s cubic-bezier(.45,.05,.55,.95) 0s;
+}
+
+
+.media-body{
+    
+}
+.service-area h3{
+    font-weight: 600;
+    font-size: 20px;
 }
 
