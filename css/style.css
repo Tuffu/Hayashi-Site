@@ -5,7 +5,7 @@ html{
 }
 
 p, b{
-    font-size: 15px;
+    font-size: 16px;
     letter-spacing: 0.2px;
     
 }
@@ -128,6 +128,10 @@ img{
 
 }
 
+.client-body{
+    display: inline-block;
+}
+
 .client-body p{
     padding-top: 20px;
     letter-spacing: 0.3px;
@@ -144,6 +148,7 @@ img{
 }
 
 .main-footer{
+    display: block;
     background: red;
 }
 
@@ -170,6 +175,12 @@ img{
        float: none;
        position: static;
        z-index: auto;
+   }
+
+   .col-1_2{
+       width: 45%;
+       margin: 1%;
+       float: left;
    }
    
 }
