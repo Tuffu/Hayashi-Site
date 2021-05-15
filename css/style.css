@@ -15,6 +15,7 @@ h1, h2{
     text-align: center;
 }
 
+/*------------------ HEADER ------------------*/
 
 #top-header{
     display: block;
@@ -23,7 +24,7 @@ h1, h2{
 }
 
 .max-width{
-    max-width: 1124px;
+    max-width: 1324px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -73,6 +74,8 @@ img{
     transition: 0.3s ease-in-out;
 }
 
+/*------------------ ARTICLE ------------------*/
+
 #section-article{
     padding-top: 5px;
     padding-bottom: 20px;
@@ -84,6 +87,7 @@ img{
     color: rgb(139, 139, 139);
 }
 
+/*------------------ SOLUTION ------------------*/
 
 #solution-content{
     padding: 25px;
@@ -95,9 +99,7 @@ img{
     
 }
 
-.container{
-    padding-bottom: 30px;
-}
+/*------------------ SERVICES ------------------*/
 
 .solution-content{
     padding-top: 40px;
@@ -106,22 +108,33 @@ img{
     padding-bottom: 20px;
 }
 
+.container{
+    padding-bottom: 30px;
+}
+
+.container-service {
+    display: inline-block;
+}
+
+.container-service p {
+    display: table-footer-group;
+}
+
 .services-icons{
     color: red;
     float: left;
-    padding: 0;
-    margin: 0, 30px, 0, 0;
+    padding-right: 20px;
     font-size: 40px;
  
-}
-.services-icons i{
-    transition: all 0.3s cubic-bezier(.45,.05,.55,.95) 0s;
 }
 
 .service-area h3{
     font-weight: 600;
     font-size: 20px;
 }
+
+/*------------------ CLIENT ------------------*/
+
 .client-body h3{
     text-align: center;
     font-size: 30px;
@@ -147,12 +160,13 @@ img{
     float: left;
 }
 
+/*------------------ FOOTER ------------------*/
+
 .main-footer{
-    display: block;
     background: red;
 }
 
-@media screen and (min-width: 70.7em) {
+@media screen and (min-width:78.0em) {
 
 
     .top-nav{
@@ -182,6 +196,8 @@ img{
        margin: 1%;
        float: left;
    }
+
+   
    
 }
 
