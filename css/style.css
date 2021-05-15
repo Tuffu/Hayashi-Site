@@ -5,7 +5,7 @@ html{
 }
 
 p, b{
-    font-size: 16px;
+    font-size: 15px;
     letter-spacing: 0.2px;
     
 }
@@ -19,12 +19,16 @@ h1, h2{
 
 #top-header{
     display: block;
-    border-bottom: 1px solid red;
     padding-bottom: 20px;
 }
 
+#top-header p{
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+
 .max-width{
-    max-width: 1324px;
+    max-width: 1224px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -35,18 +39,21 @@ h1, h2{
     clear: both;
 }
 
-.top-header-logo{
-    display: inline-block;
-    
+.top-header-align{
+    padding-left:38%;
 }
 
-img{
-    float: left;
+.top-header-logo{
+    display: inline-block;
 }
+
+/* img{
+    float: left;
+} */
 
 
 .img-logo{
-    max-width: auto;
+    max-width: 50%;
     padding-top: 10px; 
 }
 
@@ -59,6 +66,7 @@ img{
     margin-top: 10px;
     padding: 0;
     list-style: none;
+    
 }
 
 .top-nav a {
@@ -79,11 +87,11 @@ img{
 #section-article{
     padding-top: 5px;
     padding-bottom: 20px;
-    border-bottom: 1px solid red;
-
+    background: rgba(158, 82, 82, 0.267);
 }
 
-#section-article p{
+.article-content p{
+    text-align: justify;
     color: rgb(139, 139, 139);
 }
 
@@ -91,22 +99,17 @@ img{
 
 #solution-content{
     padding: 25px;
-    border-bottom: 1px solid red;
 }
 
 #solution-content p{ 
     color: rgb(139, 139, 139);
-    
+}
+
+.container{
+    text-align: justify;
 }
 
 /*------------------ SERVICES ------------------*/
-
-.solution-content{
-    padding-top: 40px;
-}
-.service-area{
-    padding-bottom: 20px;
-}
 
 .container{
     padding-bottom: 30px;
@@ -118,6 +121,21 @@ img{
 
 .container-service p {
     display: table-footer-group;
+}
+
+.solution-content{
+    padding-top: 30px;
+}
+.service-area{
+    padding-bottom: 10px;
+    text-align: justify;
+}
+.media{
+    padding-left: 50px;
+}
+
+.media-body{
+    padding-right: 50px;
 }
 
 .services-icons{
@@ -135,19 +153,43 @@ img{
 
 /*------------------ CLIENT ------------------*/
 
+.client-section{
+    background: rgba(158, 82, 82, 0.267);
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.client-content{
+    display: inline-block;
+}
+
+.client-body .col-1_2{
+    background: red;
+    border-radius: 25px;
+}
+
+
 .client-body h3{
     text-align: center;
     font-size: 30px;
 
 }
 
-.client-body{
-    display: inline-block;
+.client-body h4{
+    color: black;
+    padding-right: 15px;
+    float: right;
 }
 
 .client-body p{
-    padding-top: 20px;
-    letter-spacing: 0.3px;
+    color: black;
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    letter-spacing: 0.4px;
+    text-align: justify;
+    
 }
 
 .image-content{
@@ -155,49 +197,96 @@ img{
 }
 
 .img-client{
-    border-radius: 100%;
+    border-radius: 75%;
     max-width: 70px;
-    float: left;
+    margin-right: 50px;
+    float: right;
+}
+
+.client-information p{
+    color: black;
+
+}
+
+/*------------------ CONTACT ------------------*/
+
+/* .contact-container{
+    display: inline-block;
+} */
+
+.contact-content{
+    display: inline-block;
+    
+}
+
+.contact-icon{
+    color: red;
+    font-size: 40px;
+}
+
+.contact-icon span{
+    color: black;
+    font-size: 20px;
+    padding-left: 20px;
 }
 
 /*------------------ FOOTER ------------------*/
 
 .main-footer{
-    background: red;
+    background: rgba(158, 82, 82, 0.267);
+    padding-bottom: 300px;
 }
 
-@media screen and (min-width:78.0em) {
+.main-footer p{
+    color: black;
+}
 
+.icons-footer{
+    font-size: 25px;
+}
+
+.body-footer{
+    float: left;
+}
+
+@media screen and (min-width:75.7em) {
 
     .top-nav{
         background: transparent;
-        float: right;
+        /* float: right; */
         margin-top: 25px;
         border-style: none;
     }
     .top-nav li{
         display: inline-block;
+        
     }
     .top-nav li :hover{
         color: red;
         transition: 0.3s ease-in-out;
     }
-
    .top-header-logo{
-       box-sizing: content-box;
        display: inline;
-       float: none;
-       position: static;
-       z-index: auto;
    }
 
+   .top-header-align{
+       padding-left:30%;
+}
+
    .col-1_2{
-       width: 45%;
+       width: 48%;
        margin: 1%;
        float: left;
    }
+   .client-body .col-1_2{
+       background: red;
+       border-radius: 25px;
+   }
 
-   
-   
+   .col-1_3{
+    width: 48%;
+    margin: 1%;
+    float: left;
+   }
 }
 
