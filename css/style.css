@@ -107,6 +107,12 @@ h1, h2{
 
 #solution-content p{ 
     color: rgb(139, 139, 139);
+    
+}
+
+.section-solution-title p{
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .container{
@@ -171,6 +177,7 @@ h1, h2{
 
 .client-body .col-1_2{
     border: 0.1px solid red;
+    box-shadow: 0.3px 3px 20px rgba(7, 7, 7, 0.555);
     border-radius: 25px;
     margin-top: 20px;
 }
@@ -224,7 +231,7 @@ h1, h2{
 .contact-container{
     display: flex;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
 } 
 
 .contact-content{
@@ -244,7 +251,7 @@ h1, h2{
 
 .contact-icon span{
     color: black;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Open Sans';
 }
 
@@ -260,10 +267,11 @@ h1, h2{
 }
 
 .icons-footer{
-    font-size: 25px;
+    font-size: 30px;
 }
 
-.body-footer{
+.copyright-content li{
+    list-style: none;
     float: left;
 }
 
@@ -296,14 +304,9 @@ h1, h2{
        margin: 1%;
        float: left;
    }
+
    .client-body .col-1_2{
        border-radius: 25px;
-   }
-
-   .col-1_3{
-    width: 48%;
-    margin:1%;
-    float: left;
    }
 }
 
