@@ -20,6 +20,7 @@ h1, h2{
 
 #top-header{
     display: block;
+    border-bottom: 1px solid red;
 }
 
 #top-header p{
@@ -39,9 +40,9 @@ h1, h2{
     clear: both;
 }
 
-.top-header-align{
-    padding-left:38%;
-}
+/* .top-header-align{
+    padding-left:40%;
+} */
 
 .top-header-logo{
     display: inline-block;
@@ -53,11 +54,13 @@ h1, h2{
 
 
 .img-logo{
-    max-width: 40%;
-    padding-top: 10px; 
+    max-width: 15%;
+    padding-top: 20px;
+    float: left; 
 }
 
 .top-nav{
+    padding-top: 15px;
     background: red;
     text-align: center;
 }
@@ -89,7 +92,7 @@ h1, h2{
 #section-article{
     padding-top: 5px;
     padding-bottom: 20px;
-    background: rgba(187, 175, 175, 0.267);
+    background: rgba(218, 211, 211, 0.267);
 }
 
 .article-content p{
@@ -164,7 +167,7 @@ h1, h2{
 /*------------------ CLIENT ------------------*/
 
 .client-section{
-    background: rgba(187, 175, 175, 0.267);
+    background: rgba(218, 211, 211, 0.267);
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 60px;
@@ -258,29 +261,51 @@ h1, h2{
 /*------------------ FOOTER ------------------*/
 
 .main-footer{
-    background: rgba(187, 175, 175, 0.267);
-    padding-bottom: 300px;
+    background: rgba(218, 211, 211, 0.267);
 }
 
 .main-footer p{
     color: black;
 }
 
-.icons-footer{
-    font-size: 30px;
+.body-footer{
+    display: inline-block;
 }
 
-.copyright-content li{
-    list-style: none;
-    float: left;
+.icons-footer{
+    font-size: 30px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top: 30px;
+    display: inline-flex;
 }
+
+.icons-footer i {
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.copyright-content{
+    background: rgb(209, 0, 0);
+    padding: 1px;
+}
+
+.copyright-content p{
+    color: white;
+    text-align: center;
+}
+.copyright-content a{
+    text-decoration: none;
+    color:white
+}
+
 
 @media screen and (min-width:75.7em) {
 
     .top-nav{
         background: transparent;
         /* float: right; */
-        margin-top: 25px;
+       /*  margin-top: 25px; */
         border-style: none;
     }
     .top-nav li{
@@ -295,9 +320,10 @@ h1, h2{
        display: inline;
    }
 
-   .top-header-align{
-       padding-left:30%;
-}
+
+   /* .top-header-align{
+       padding-left:40%;
+} */
 
    .col-1_2{
        width: 47%;
