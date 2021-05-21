@@ -19,7 +19,11 @@ h1, h2{
 /*------------------ HEADER ------------------*/
 
 #top-header{
-    display: block;
+    background: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
     border-bottom: 1px solid red;
 }
 
@@ -90,7 +94,7 @@ h1, h2{
 /*------------------ ARTICLE ------------------*/
 
 #section-article{
-    padding-top: 5px;
+    padding-top: 60px;
     padding-bottom: 20px;
     background: rgba(218, 211, 211, 0.267);
 }
