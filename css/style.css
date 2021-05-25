@@ -19,7 +19,7 @@ h1, h2{
 /*------------------ HEADER ------------------*/
 
 #top-header{
-    background: grey;
+    background: white;
     position: fixed;
     left: 0;
     top: 0;
@@ -44,6 +44,16 @@ h1, h2{
     clear: both;
 }
 
+.whatsaap-container{
+    width: 200%;
+} 
+.whats-icon{
+    width: 200%;
+    position: fixed;
+    top: 809px;
+    left: 0px;
+}
+
 .top-header-logo{
     display: inline-block;
 }
@@ -53,14 +63,14 @@ h1, h2{
 } */
 
 .img-logo{
-    max-width: 15%;
-    padding-top: 15px;
+    max-width: 17%;
+    padding-top: 13px;
     float: left; 
 }
 
 .logo-pais, img{
     max-width: 2%;
-    padding-left: 10px;
+    padding-right: 13px;
 }
 
 .top-nav{
@@ -78,7 +88,6 @@ h1, h2{
     text-decoration: none;
     padding: 0.7em;
     display: block;
-    
 }
 
 .menu-section {
@@ -106,10 +115,6 @@ h1, h2{
 }
 
 /*------------------ SOLUTION ------------------*/
-
-#solution-content{
-    padding: 25px;
-}
 
 #solution-content, p{ 
     color: rgb(139, 139, 139);
@@ -140,7 +145,7 @@ h1, h2{
 }
 
 .solution-content{
-    padding-top: 30px;
+    padding-top: 10px;
 }
 .service-area{
     padding-bottom: 10px;
@@ -171,7 +176,7 @@ h1, h2{
 
 .client-section{
     background: rgba(218, 211, 211, 0.267);
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 30px;
     padding-left: 60px;
     padding-right: 60px;
@@ -294,7 +299,7 @@ h1, h2{
 }
 
 .copyright-content p{
-    color: white;
+    color: black;
     text-align: center;
 }
 .copyright-content a{
