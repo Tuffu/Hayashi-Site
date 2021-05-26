@@ -1,0 +1,316 @@
+/* ---------------------------------------------ABOUT EMPRESA--------------------------------------------- */
+
+html, body{
+    font-family: 'Open Sans';
+    line-height: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+p, b{
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    
+}
+
+h1, h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+/*------------------ HEADER ------------------*/
+
+#top-header{
+    background: white;
+    /* position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%; */
+    border-bottom: 1px solid red;
+}
+
+#top-header p{
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+
+.max-width{
+    max-width: 1224px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.whatsaap-container{
+    width: 200%;
+} 
+.whats-icon{
+    width: 200%;
+    position: fixed;
+    top: 809px;
+    left: 0px;
+}
+
+.top-header-logo{
+    display: inline-block;
+}
+
+/* img{
+    float: left;
+} */
+
+.img-logo{
+    max-width: 17%;
+    padding-top: 13px;
+    float: left; 
+}
+
+.logo-pais, img{
+    max-width: 3%;
+    padding-right: 13px;
+}
+
+.top-nav{
+    padding-top: 15px;
+    background: red;
+    text-align: center;
+}
+
+.top-nav ul{
+    list-style: none;
+}
+
+.top-nav a {
+    color: black;
+    text-decoration: none;
+    padding: 0.7em;
+    display: block;
+}
+
+.menu-section {
+    margin: auto;
+}
+
+ .top-nav li :hover{
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+/* Atual time line */
+
+* {
+    box-sizing: border-box;
+  }
+
+.timeline{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    background: red;
+    top: 0px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.container{
+    padding: 90px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+/*------------------ ARTICLE ------------------*/
+
+#section-article{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgba(218, 211, 211, 0.267);
+}
+
+.article-content p{
+    text-align: justify;
+    color: rgb(139, 139, 139);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/* circulos da timeline */
+.container::after{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid black;
+    top: 100px;
+    border-radius: 50px;
+    z-index: 1;
+}
+
+.left{
+    left: 0;
+}
+ /* -------SETAS------- */
+/* .left::before{
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 105px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0px 10px 10px;
+    border-color: transparent red transparent transparent;
+} */
+
+.right{
+    right: -50%;
+}
+
+/* -------SETAS------- */
+/* .right::before{
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 105px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent red transparent transparent;
+} */
+
+/* Fixar circulos do container no lado direito */
+.right::after{
+    left: -16px;
+}
+
+.content{
+    padding: 20px 30px;
+    border: 1px solid red;
+    box-shadow: 0.3px 3px 20px rgba(7, 7, 7, 0.555);
+    position: relative;
+    border-radius: 6px;
+}
+
+/* FOOTER */
+
+.main-footer{
+    background: rgba(218, 211, 211, 0.267);
+}
+
+.main-footer p{
+    color: black;
+}
+
+.body-footer{
+    display: inline-block;
+}
+
+.icons-footer{
+    font-size: 30px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top: 30px;
+    display: inline-flex;
+}
+
+.icons-footer i {
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.copyright-content{
+    background: rgb(209, 0, 0);
+    padding: 1px;
+}
+
+.copyright-content p{
+    color: black;
+    text-align: center;
+}
+.copyright-content a{
+    text-decoration: none;
+    color:white
+}
+
+
+/* Media queries - Responsive Top header */
+
+@media screen and (min-width:75.7em) {
+
+    .top-nav{
+        background: transparent;
+        float: right; 
+       /*margin-top: 25px; */
+        border-style: none;
+    }
+    .top-nav li{
+        display: inline-block;
+        
+    }
+    .top-nav li :hover{
+        color: red;
+        transition: 0.3s ease-in-out;
+    }
+   .top-header-logo{
+       display: inline;
+   }
+   /* .top-header-align{
+       padding-left:40%;
+} */
+
+   .col-1_2{
+       width: 47%;
+       margin: 1%;
+       float: left;
+   }
+
+   .client-body .col-1_2{
+       border-radius: 25px;
+   }
+}
+
+/* Media queries - Responsive timeline menor que 600px wide */
+@media screen and (max-width: 600px){
+    .timeline::after{
+        left: 31px;
+    }
+
+    /* Full-wide conatainer */
+    .container{
+        width: 100%;
+        padding-left: 7px;
+        padding-right: 25px;
+    }
+    /* Fazer com que todos os ponteiros vão para a esquerda */
+    .container::before{
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+    /* Faz com que todos os circulos fiquem no mesmo lugar */
+    .left::after, .right::after{
+        left: 15px;
+    }
+    .right{
+        left: 0%;
+    }
+}
