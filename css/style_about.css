@@ -18,6 +18,10 @@ h1, h2{
     text-align: center;
 }
 
+* {
+    box-sizing: border-box;
+  }
+
 /*------------------ HEADER ------------------*/
 
 #top-header{
@@ -56,6 +60,10 @@ h1, h2{
     left: 0px;
 }
 
+.whats-img{
+    max-width: 2%;
+}
+
 .top-header-logo{
     display: inline-block;
 }
@@ -70,7 +78,7 @@ h1, h2{
     float: left; 
 }
 
-.logo-pais, img{
+.logo-pais img{
     max-width: 3%;
     padding-right: 13px;
 }
@@ -100,12 +108,9 @@ h1, h2{
     color: white;
     transition: 0.3s ease-in-out;
 }
+/* -----------------------------TIMELINE -----------------------------*/
 
 /* Atual time line */
-
-* {
-    box-sizing: border-box;
-  }
 
 .timeline{
     position: relative;
@@ -209,6 +214,49 @@ h1, h2{
     border-radius: 6px;
 }
 
+/* BOSS SECTION */
+.article{
+    background: white; /* rgba(218, 211, 211, 0.267); */
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.boss-body{
+    border: 0.1px solid red;
+    box-shadow: 0.3px 3px 20px rgba(7, 7, 7, 0.555);
+    border-radius: 25px;
+    margin-top: 20px;
+    padding-bottom: 0px;
+    /* width: 75%; */
+}
+
+.boss-body p{
+    padding-top: 20px;
+    padding-left: 70px;
+    width: 85%;
+    text-align: justify;
+}
+.text-article {
+    float: left;
+}
+
+.image-content{
+    padding-right: 20px;
+}
+
+.img-boss{
+    max-width: 13%;
+    padding-right: 20px;
+    /* padding-top: 300px; */
+}
+
+.boss-information{
+    padding-top: 0px;
+    padding-right: 20px;
+}
+
 /* FOOTER */
 
 .main-footer{
@@ -285,6 +333,29 @@ h1, h2{
    .client-body .col-1_2{
        border-radius: 25px;
    }
+
+   .boss-body{
+    border: 0.1px solid red;
+    box-shadow: 0.3px 3px 20px rgba(7, 7, 7, 0.555);
+    border-radius: 25px;
+    margin-top: 20px;
+    padding-bottom:0px;
+    /* width: 75%; */
+}
+
+   .boss-body p{
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 85%;
+    text-align: justify;
+}
+
+.img-boss{
+    max-width: 13%;
+    padding-right: 20px;
+    padding-top: 110px;
+}
+   
 }
 
 /* Media queries - Responsive timeline menor que 600px wide */

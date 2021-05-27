@@ -16,6 +16,11 @@ h1, h2{
     text-align: center;
 }
 
+
+* {
+    box-sizing: border-box;
+}
+
 /*------------------ HEADER ------------------*/
 
 #top-header{
@@ -69,7 +74,7 @@ h1, h2{
 }
 
 .logo-pais, img{
-    max-width: 2%;
+    max-width: 3%;
     padding-right: 13px;
 }
 
@@ -186,7 +191,7 @@ h1, h2{
     display: inline-block;
 }
 
-.client-body .col-1_2{
+.client-body .col-1_2{ /* contorno do texto */
     border: 0.1px solid red;
     box-shadow: 0.3px 3px 20px rgba(7, 7, 7, 0.555);
     border-radius: 25px;
