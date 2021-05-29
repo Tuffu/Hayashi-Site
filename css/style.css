@@ -38,7 +38,7 @@ h1, h2{
 }
 
 .max-width{
-    max-width: 1224px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -48,15 +48,15 @@ h1, h2{
     display: block;
     clear: both;
 }
-
-.whatsaap-container{
-    width: 200%;
-} 
 .whats-icon{
-    width: 200%;
+    max-width: 100%;
     position: fixed;
-    top: 809px;
+    top: 768px;
     left: 0px;
+}
+
+.img-whats{
+    width: 8%;
 }
 
 .top-header-logo{
@@ -68,14 +68,14 @@ h1, h2{
 } */
 
 .img-logo{
-    max-width: 17%;
+    max-width: 40%;
     padding-top: 13px;
     float: left; 
 }
 
-.logo-pais, img{
-    max-width: 3%;
-    padding-right: 13px;
+.logo-pais img{
+    max-width: 2%;
+    margin-right: 13px;
 }
 
 .top-nav{
@@ -107,7 +107,7 @@ h1, h2{
 /*------------------ ARTICLE ------------------*/
 
 #section-article{
-    padding-top: 80px;
+    padding-top: 370px;
     padding-bottom: 20px;
     background: rgba(218, 211, 211, 0.267);
 }
@@ -312,7 +312,29 @@ h1, h2{
     color:white
 }
 
-@media screen and (min-width:75.7em) {
+@media screen and (min-width: 980px) {
+
+    .whats-icon{
+        position: fixed;
+        top: 500px;
+        left: 0px;
+    }
+    
+    .img-whats{
+        width: 10%;
+    }
+
+    .img-logo{
+        max-width: 17%;
+        padding-top: 13px;
+        float: left; 
+    }
+
+    #section-article {
+        padding-top: 100px;
+        padding-bottom: 20px;
+        background: rgba(218, 211, 211, 0.267);
+    }
 
     .top-nav{
         background: transparent;
@@ -345,4 +367,5 @@ h1, h2{
        border-radius: 25px;
    }
 }
+
 
