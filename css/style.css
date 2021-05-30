@@ -17,10 +17,6 @@ h1, h2{
 }
 
 
-* {
-    box-sizing: border-box;
-}
-
 /*------------------ HEADER ------------------*/
 
 #top-header{
@@ -49,7 +45,6 @@ h1, h2{
     clear: both;
 }
 .whats-icon{
-    max-width: 100%;
     position: fixed;
     top: 768px;
     left: 0px;
@@ -320,7 +315,7 @@ h1, h2{
         left: 0px;
     }
     
-    .img-whats{
+    .whats-img{
         width: 10%;
     }
 

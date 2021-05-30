@@ -1,0 +1,150 @@
+html, body{
+    font-family: 'Open Sans';
+    line-height: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+p, b{
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    
+}
+
+h1, h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+/*------------------ HEADER ------------------*/
+
+#top-header{
+    background: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid red;
+}
+
+#top-header p{
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+
+.max-width{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.whats-icon{
+    position: fixed;
+    top: 768px;
+    left: 0px;
+}
+
+.img-whats{
+    width: 8%;
+}
+
+.top-header-logo{
+    display: inline-block;
+}
+
+/* img{
+    float: left;
+} */
+
+.img-logo{
+    max-width: 40%;
+    padding-top: 13px;
+    float: left; 
+}
+
+.logo-pais img{
+    max-width: 2%;
+    margin-right: 13px;
+}
+
+.top-nav{
+    padding-top: 15px;
+    background: red;
+    text-align: center;
+}
+
+.top-nav ul{
+    list-style: none;
+}
+
+.top-nav a {
+    color: black;
+    text-decoration: none;
+    padding: 0.7em;
+    display: block;
+}
+
+.menu-section {
+    margin: auto;
+}
+
+ .top-nav li :hover{
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+/* ----------------image--------------- */
+
+
+@media screen and (min-width: 980px) {
+
+    .whats-icon{
+        position: fixed;
+        top: 500px;
+        left: 0px;
+    }
+    
+    .whats-img{
+        width: 10%;
+    }
+
+    .img-logo{
+        max-width: 17%;
+        padding-top: 13px;
+        float: left; 
+    }
+
+    #section-article {
+        padding-top: 100px;
+        padding-bottom: 20px;
+        background: rgba(218, 211, 211, 0.267);
+    }
+
+    .top-nav{
+        background: transparent;
+        float: right; 
+       /*  margin-top: 25px; */
+        border-style: none;
+    }
+    .top-nav li{
+        display: inline-block;
+        
+    }
+    .top-nav li :hover{
+        color: red;
+        transition: 0.3s ease-in-out;
+    }
+   .top-header-logo{
+       display: inline;
+   }
+}

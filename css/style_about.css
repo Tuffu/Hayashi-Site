@@ -50,18 +50,14 @@ h1, h2{
     clear: both;
 }
 
-.whatsaap-container{
-    width: 200%;
-} 
 .whats-icon{
-    width: 200%;
     position: fixed;
     top: 500px;
     left: 0px;
 }
 
-.whats-img{
-    max-width: 3%;
+.img-whats{
+    width: 8%;
 }
 
 .top-header-logo{
@@ -316,8 +312,8 @@ h1, h2{
         left: 0px;
     }
     
-    .whats-img{
-        max-width: 60px;
+    .img-whats{
+        width: 8%;
     }
 
     .top-nav{
@@ -363,24 +359,25 @@ h1, h2{
    .boss-body p{
     padding-left: 20px;
     padding-top: 20px;
-    width: 85%;
+    width: 90%;
     text-align: justify;
 }
 
 .img-boss{
-    max-width: 15%;
-    margin-top:15px;
-    margin-left:20px
+    max-width: 7%;
+    /* margin-top:15px; */
+    margin-left:0px;
+    margin-right: 10px;
 }
 .boss-information{
     /* padding-right: 60px; */
     text-align: right;
-    padding-right: 84px;
+    padding-right: 50px;
 }
 .boss-information-fernando{
     /* padding-right: 60px; */
     text-align: right;
-    padding-right: 6px;
+    padding-right: 31px;
 }
 
 }
