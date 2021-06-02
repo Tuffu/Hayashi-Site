@@ -323,11 +323,25 @@ h1, h2{
     }
 
     .img-logo{
-    max-width: 17%;
-    padding-top: 5px;
-    float: left;
+        max-width: 17%;
+        padding-top: 5px;
+        float: left;
     }
 
+    .logo-pais img{
+        padding-top: 3px;
+        max-width: 3.3%;
+        margin-right: 13px;
+        margin-left: 10px;
+    }
+
+    .icons-header{
+        color: white;
+        font-size: 20px;
+        text-align:right;
+        text-decoration: none;
+        margin-right: 50px;
+    }
 
     .top-nav{
         background: transparent;
@@ -361,37 +375,37 @@ h1, h2{
    }
 
    .boss-body{
-    border: 0.1px solid red;
-    box-shadow: 0.3px 3px 20px rgba(7, 7, 7, 0.555);
-    border-radius: 25px;
-    margin-top: 20px;
-    padding-bottom:0px;
-    /* width: 75%; */
-}
+        border: 0.1px solid red;
+        box-shadow: 0.3px 3px 20px rgba(7, 7, 7, 0.555);
+        border-radius: 25px;
+        margin-top: 20px;
+        padding-bottom:0px;
+        /* width: 75%; */
+    }
 
    .boss-body p{
     padding-left: 20px;
     padding-top: 20px;
     width: 90%;
     text-align: justify;
-}
+    }
 
-.img-boss{
+    .img-boss{
     max-width: 7%;
     /* margin-top:15px; */
     margin-left:0px;
     margin-right: 10px;
-}
-.boss-information{
-    /* padding-right: 60px; */
-    text-align: right;
-    padding-right: 50px;
-}
-.boss-information-fernando{
-    /* padding-right: 60px; */
-    text-align: right;
-    padding-right: 31px;
-}
+    }
+    .boss-information{
+        /* padding-right: 60px; */
+        text-align: right;
+        padding-right: 50px;
+    }
+    .boss-information-fernando{
+        /* padding-right: 60px; */
+        text-align: right;
+        padding-right: 31px;
+    }
 
 }
 

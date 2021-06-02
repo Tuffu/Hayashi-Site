@@ -16,7 +16,6 @@ h1, h2{
     text-align: center;
 }
 
-
 /*------------------ HEADER ------------------*/
 
 #top-header{
@@ -74,8 +73,18 @@ h1, h2{
 }
 
 .logo-pais img{
-    max-width: 2%;
+    padding-top: 4px;
+    max-width: 2.5%;
     margin-right: 13px;
+}
+
+.icons-header{
+    color: white;
+    font-size: 20px;
+    text-align:right;
+    margin-right: 45px;
+    text-decoration: none;
+    
 }
 
 .top-nav{
@@ -325,9 +334,23 @@ h1, h2{
     }
 
     .img-logo{
-    max-width: 17%;
-    padding-top: 5px;
-    float: left; 
+        max-width: 17%;
+        padding-top: 5px;
+        float: left; 
+    }
+
+    .logo-pais img{
+        padding-top: 3px;
+        max-width: 2.3%;
+        margin-right: 13px;
+    }
+    
+    .icons-header{
+        color: white;
+        font-size: 20px;
+        text-align:right;
+        text-decoration: none;
+        margin-right: 50px;
     }
 
     #section-article {
@@ -338,9 +361,9 @@ h1, h2{
 
     .top-nav{
         background: transparent;
-float: right;
-margin-top: 5px;
-border-style: none;
+        float: right;
+        margin-top: 5px;
+        border-style: none;
     }
     .top-nav li{
         display: inline-block;
