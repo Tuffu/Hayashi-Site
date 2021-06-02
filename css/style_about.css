@@ -38,6 +38,12 @@ h1, h2{
     letter-spacing: 0.2px;
 }
 
+.information-top{
+    background: rgb(209, 0, 0);
+    top: 0;
+}
+
+
 .max-width{
     max-width: 1224px;
     margin-left: auto;
@@ -80,7 +86,7 @@ h1, h2{
 }
 
 .top-nav{
-    padding-top: 15px;
+    /* padding-top: 15px; */
     background: red;
     text-align: center;
 }
@@ -316,10 +322,17 @@ h1, h2{
         width: 8%;
     }
 
+    .img-logo{
+    max-width: 17%;
+    padding-top: 5px;
+    float: left;
+    }
+
+
     .top-nav{
         background: transparent;
         float: right; 
-       /*margin-top: 25px; */
+        margin-top: 5px;
         border-style: none;
     }
     .top-nav li{

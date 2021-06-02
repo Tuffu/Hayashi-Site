@@ -294,6 +294,7 @@ h1, h2{
     }
 
     .title-dashboard{
+        padding-top: 25px;  
         text-align: center;
         font-size: 25px;
     }
@@ -312,6 +313,7 @@ h1, h2{
     }
 
     .title-comandas{
+        padding-top: 25px;
         text-align: center;
         font-size: 25px;
     }

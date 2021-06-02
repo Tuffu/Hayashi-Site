@@ -33,6 +33,11 @@ h1, h2{
     letter-spacing: 0.2px;
 }
 
+.information-top{
+    background: rgb(209, 0, 0);
+    top: 0;
+}
+
 .max-width{
     max-width: 1200px;
     margin-left: auto;
@@ -74,7 +79,7 @@ h1, h2{
 }
 
 .top-nav{
-    padding-top: 15px;
+    /* padding-top: 15px; */
     background: red;
     text-align: center;
 }
@@ -320,9 +325,9 @@ h1, h2{
     }
 
     .img-logo{
-        max-width: 17%;
-        padding-top: 13px;
-        float: left; 
+    max-width: 17%;
+    padding-top: 5px;
+    float: left; 
     }
 
     #section-article {
@@ -333,9 +338,9 @@ h1, h2{
 
     .top-nav{
         background: transparent;
-        float: right; 
-       /*  margin-top: 25px; */
-        border-style: none;
+float: right;
+margin-top: 5px;
+border-style: none;
     }
     .top-nav li{
         display: inline-block;
