@@ -6,6 +6,8 @@
     box-shadow: 0.3px 3px 20px rgba(7, 7, 7, 0.555);
     border-radius: 25px;
     margin-top: 20px;   
+    margin-right: 80px;
+    margin-left: 80px;
 }
 
 .perguntas-section h3{

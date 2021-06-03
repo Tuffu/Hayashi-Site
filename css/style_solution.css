@@ -85,11 +85,13 @@ h1, h2{
 }
 
 .icons-header{
-    color: white;
     font-size: 20px;
     text-align:right;
-    text-decoration: none;
     margin-right: 50px;
+}
+
+.icons-header a{
+    color: white;
 }
 
 .top-nav{
@@ -141,6 +143,8 @@ h1, h2{
 
 .title-dashboard{
     text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
 }
 .title-dashboard p{
     padding-top: 20px;
@@ -158,6 +162,8 @@ h1, h2{
 
 .title-comandas{
     text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
 }
 .title-comandas p{
     padding-top: 20px;
@@ -176,8 +182,9 @@ h1, h2{
 }
 
 .title-sistema{
-    padding-top: 50px;
+    padding-top: 20px;
     text-align: center;
+    font-size: 30px;
 }
 .title-sistema p{
     padding-top: 30px;
@@ -196,8 +203,9 @@ h1, h2{
 }
 
 .title-pdv{
-    padding-top: 50px;
+    padding-top: 10px;
     text-align: center;
+    font-size: 30px;
 }
 .title-pdv p{
     padding-top: 20px;

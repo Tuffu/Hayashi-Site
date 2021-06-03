@@ -85,6 +85,10 @@ h1, h2{
     padding-right: 13px;
 }
 
+.icons-header a{
+    color: white;
+}
+
 .top-nav{
     /* padding-top: 15px; */
     background: red;
@@ -250,14 +254,14 @@ h1, h2{
 
 .img-boss{
     max-width: 15%;
-    margin-top:120px;
+    margin-top:159px;
     margin-left:20px
 }
 
 .boss-information{
     /* padding-right: 60px; */
     text-align: right;
-    padding-right: 60px;
+    padding-right: 34px;
 }
 
 .boss-information-fernando{
@@ -399,12 +403,12 @@ h1, h2{
     .boss-information{
         /* padding-right: 60px; */
         text-align: right;
-        padding-right: 50px;
+        padding-right: 44px;
     }
     .boss-information-fernando{
         /* padding-right: 60px; */
         text-align: right;
-        padding-right: 31px;
+        padding-right: 25px;
     }
 
 }
