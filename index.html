@@ -33,29 +33,33 @@
                                 aria-hidden="true"></i></a>
                     </div>
                 </div>
-            </div>
-            <div class="max-width clearfix">
                 <div class="whatsaap-container">
                     <div class="whats-icon">
                         <a href="https://wa.me/5511981720618" target="_blank"><img class="img-whats"
                                 src="img/icons/Whatsapp_icon-icons.com_66931.png" alt=""></a>
                     </div>
                 </div>
-                <div class="top-header-logo">
-                    <a href="index.html"><img class="img-logo" src="img/logo/hayashilogo.png" alt=""></a>
-                </div>
-                <nav class="top-nav">
-                    <ul class="menu-section">
-                        <li><a href="solution.html" class="menu-li"><b>Soluções</b></a></li>
-                        <li><a href="about.html" class="menu-li"><b>Sobre a Empresa</b></a></li>
-                        <li><a href="#" class="menu-li"><b>Srs.Contadores</b></a></li>
-                        <li><a href="perguntas.html" class="menu-li"><b>Perguntas Frequentes</b></a></li>
-                        <li><a href="#" class="menu-li"><b>Contato</b></a></li>
-                        <li><a href="#" class="menu-li"><b>Suporte</b></a></li>
-                    </ul>
-                </nav>
             </div>
         </header>
+        <div class="mobile-container">
+            <div class="max-width">
+            <div class="topnav">
+                <a href="index.html" class="active"><img src="img/logo/hayashilogo.png" alt=""></a>
+                <div id="myLinks">
+                    <a href="solution.html">Soluções</a>
+                    <a href="about.html">Sobre a Empresa</a>
+                    <a href="#">Srs. Contadores</a>
+                    <a href="perguntas.html">Perguntas Frequentes</a>
+                    <a href="#">Contato</a>
+                    <a href="#">Suporte</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+                </div>
+            </div>
+        </div>
+        </div>
         <section id="section-article">
             <div class="max-width">
                 <article class="article-content">
@@ -383,6 +387,17 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
 </body>
 
 </html

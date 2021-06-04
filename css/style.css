@@ -16,7 +16,6 @@ h1, h2{
     text-align: center;
 }
 
-/*------------------ HEADER ------------------*/
 
 #top-header{
     background: white;
@@ -58,28 +57,37 @@ h1, h2{
     width: 8%;
 }
 
-.top-header-logo{
-    display: inline-block;
+/*------------------ HEADER ------------------*/
+
+.topnav{
+    margin-top: 30px;
+}
+.topnav img{
+    max-width: 25%;
 }
 
-/* img{
-    float: left;
-} */
-
-.img-logo{
-    max-width: 40%;
-    padding-top: 13px;
-    float: left; 
-}
 
 .logo-pais img{
     padding-top: 4px;
-    max-width: 2.5%;
+    max-width: 3%;
     margin-right: 13px;
 }
 
+.icon{
+    display: none;
+}
+
+#myLinks{
+    float: right;
+}
+
+#myLinks a{
+    text-decoration: none;
+    color: black;
+}
+
 .icons-header{
-    color: white;
+    color: blue;
     font-size: 20px;
     text-align:right;
     margin-right: 45px;
@@ -91,36 +99,10 @@ h1, h2{
     color: white;
 }
 
-.top-nav{
-    /* padding-top: 15px; */
-    background: red;
-    text-align: center;
-}
-
-.top-nav ul{
-    list-style: none;
-}
-
-.top-nav a {
-    color: black;
-    text-decoration: none;
-    padding: 0.7em;
-    display: block;
-}
-
-.menu-section {
-    margin: auto;
-}
-
- .top-nav li :hover{
-    color: white;
-    transition: 0.3s ease-in-out;
-}
-
 /*------------------ ARTICLE ------------------*/
 
 #section-article{
-    padding-top: 370px;
+    padding-top: 20px;
     padding-bottom: 20px;
     background: rgba(218, 211, 211, 0.267);
 }
@@ -320,7 +302,7 @@ h1, h2{
     font-size: 30px;
     padding-left: 50px;
     padding-top: 30px;
-    display: inline-flex;
+    /* display: inline-flex; */
 }
 
 .icons-footer i {
@@ -349,6 +331,7 @@ h1, h2{
     text-decoration: none;
     color:white
 }
+
 
 @media screen and (min-width: 980px) {
 
@@ -520,5 +503,56 @@ h1, h2{
     .copyright-content a{
         text-decoration: none;
         color:white
+    }
+}
+
+@media screen and (max-width: 400px){
+    .mobile-container {
+        max-width: 480px;
+        margin: auto;
+        color: white;
+        border-radius: 10px;
+      }
+    
+    .topnav{
+        overflow: hidden;
+        background-color: white;
+        position: relative;
+    }
+    
+    .topnav #myLinks{
+        display: none;
+    }
+    
+    .topnav a{
+        color: black;
+        padding:14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    
+    .topnav a.icon{
+        background: block;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    
+    .topnav a:hover{
+        background-color: red;
+        color: black;
+    }
+    
+    /*.active{
+        max-width: 40%;
+        padding-top: 13px; 
+        background-color: red;
+        color: red;
+    } */
+    
+    .active img{
+        max-width: 100%;
     }
 }
