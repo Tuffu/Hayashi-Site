@@ -16,118 +16,17 @@ h1, h2{
     text-align: center;
 }
 
-
 * {
     box-sizing: border-box;
 }
 
-/*------------------ HEADER ------------------*/
 
-#top-header{
-    background: white;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    border-bottom: 1px solid red;
-}
-
-#top-header p{
-    font-size: 14px;
-    letter-spacing: 0.2px;
-    margin-top: 0;
-}
-
-.information-top{
-    background: rgb(209, 0, 0);
-    top: 0;
-}
-
-.max-width{
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.clearfix::after{
-    content: '';
-    display: block;
-    clear: both;
-}
-.whats-icon{
-    position: fixed;
-    top: 768px;
-    left: 0px;
-}
-
-.img-whats{
-    width: 8%;
-}
-
-.top-header-logo{
-    display: inline-block;
-}
-
-/* img{
-    float: left;
-} */
-
-.img-logo{
-    max-width: 40%;
-    padding-top: 13px;
-    float: left; 
-}
-
-.logo-pais img{
-    padding-top: 3px;
-    max-width: 2.3%;
-    margin-right: 13px;
-}
-
-.icons-header{
-    font-size: 20px;
-    text-align:right;
-    margin-right: 50px;
-}
-
-.icons-header a{
-    color: white;
-}
-
-.top-nav{
-    /* padding-top: 15px; */
-    background: red;
-    text-align: center;
-}
-
-.top-nav ul{
-    list-style: none;
-}
-
-.top-nav a {
-    color: black;
-    text-decoration: none;
-    padding: 0.7em;
-    display: block;
-}
-
-.menu-section {
-    margin: auto;
-}
-
- .top-nav li :hover{
-    color: white;
-    transition: 0.3s ease-in-out;
-}
 
 /*------------------ MAIN ARTICLE ------------------*/
 
-#section-article {
-    margin-top: 420px;
-}
-
 .background-section{
     background: rgba(218, 211, 211, 0.267);
+    margin-top: 100px;
 }
 
 /* DASHBOARD */
@@ -148,8 +47,9 @@ h1, h2{
 }
 .title-dashboard p{
     padding-top: 20px;
-    margin-right: 100px;
+    margin-right: 25px;
     text-align: justify;
+    margin-left: 25px;
 }
 
 /* COMANDAS */
@@ -167,18 +67,19 @@ h1, h2{
 }
 .title-comandas p{
     padding-top: 20px;
-    margin-left: 100px;
-    margin-right: 0px;
+    margin-left: 25px;
     text-align: justify;
+    margin-right: 25px;
 }
 
 /* SISTEMA */
 
 .img-sistema{
-    width: 350px;
-    margin-left: 100px;
-    padding-top: 110px;
+    width: 300px;
+    margin-left: 37px;
+    padding-top: 25px;
     float: left;
+    margin-bottom: 25px;
 }
 
 .title-sistema{
@@ -188,18 +89,19 @@ h1, h2{
 }
 .title-sistema p{
     padding-top: 30px;
-    margin-left: 470px;
-    margin-right: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
     text-align: justify;
 }
 
 /* PDV */
 
 .img-pdv{
-    width: 350px;
-    margin-right: 100px;
-    padding-top: 110px;
-    float: right;
+    width: 300px;
+    margin-left: 37px;
+    padding-top: 25px;
+    float: left;
+    margin-bottom: 25px;
 }
 
 .title-pdv{
@@ -209,8 +111,8 @@ h1, h2{
 }
 .title-pdv p{
     padding-top: 20px;
-    margin-left: 100px;
-    margin-right: 470px;
+    margin-left: 20px;
+    margin-right: 20px;
     text-align: justify;    
 }
 
@@ -256,51 +158,16 @@ h1, h2{
 }
 
 
-@media screen and (min-width: 980px) {
-
-    .whats-icon{
-        position: fixed;
-        top: 500px;
-        left: 0px;
-    }
-    
-    .whats-img{
-        width: 10%;
-    }
-
-    .img-logo{
-        max-width: 17%;
-        padding-top: 5px;
-        float: left; 
-    }
-
-    .top-nav{
-        background: transparent;
-        float: right; 
-        margin-top: 5px;
-        border-style: none;
-    }
-    .top-nav li{
-        display: inline-block;
-        
-    }
-    .top-nav li :hover{
-        color: red;
-        transition: 0.3s ease-in-out;
-    }
-   .top-header-logo{
-       display: inline;
-   }
-   /* .top-header-align{
-       padding-left:40%;
-} */
+@media screen and (min-width: 400px) {
 
     /*------------------ MAIN ARTICLE ------------------*/
-    /* DASHBOARD */
 
-    #section-article {
+    .background-section{
+        background: rgba(218, 211, 211, 0.267);
         margin-top: 100px;
     }
+
+    /* DASHBOARD */
 
     .img-content{
         display: inline-block;

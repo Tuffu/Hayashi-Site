@@ -22,98 +22,7 @@ h1, h2{
     box-sizing: border-box;
   }
 
-/*------------------ HEADER ------------------*/
 
-#top-header{
-    background: white;
-    /* position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%; */
-    border-bottom: 1px solid red;
-}
-
-#top-header p{
-    font-size: 14px;
-    letter-spacing: 0.2px;
-}
-
-.information-top{
-    background: rgb(209, 0, 0);
-    top: 0;
-}
-
-
-.max-width{
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.clearfix::after{
-    content: '';
-    display: block;
-    clear: both;
-}
-
-.whats-icon{
-    position: fixed;
-    top: 500px;
-    left: 0px;
-}
-
-.img-whats{
-    width: 8%;
-}
-
-.top-header-logo{
-    display: inline-block;
-}
-
-/* img{
-    float: left;
-} */
-
-.img-logo{
-    max-width: 17%;
-    padding-top: 13px;
-    float: left; 
-}
-
-.logo-pais img{
-    max-width: 3%;
-    padding-right: 13px;
-}
-
-.icons-header a{
-    color: white;
-}
-
-.top-nav{
-    /* padding-top: 15px; */
-    background: red;
-    text-align: center;
-}
-
-.top-nav ul{
-    list-style: none;
-}
-
-.top-nav a {
-    color: black;
-    text-decoration: none;
-    padding: 0.7em;
-    display: block;
-}
-
-.menu-section {
-    margin: auto;
-}
-
- .top-nav li :hover{
-    color: white;
-    transition: 0.3s ease-in-out;
-}
 /* -----------------------------TIMELINE -----------------------------*/
 
 /* Atual time line */
@@ -254,7 +163,7 @@ h1, h2{
 
 .img-boss{
     max-width: 15%;
-    margin-top:159px;
+    margin-top: 120px;
     margin-left:20px
 }
 
@@ -316,58 +225,6 @@ h1, h2{
 
 @media screen and (min-width:980px) {
 
-    .whats-icon{
-        position: fixed;
-        top: 500px;
-        left: 0px;
-    }
-    
-    .img-whats{
-        width: 8%;
-    }
-
-    .img-logo{
-        max-width: 17%;
-        padding-top: 5px;
-        float: left;
-    }
-
-    .logo-pais img{
-        padding-top: 3px;
-        max-width: 3.3%;
-        margin-right: 13px;
-        margin-left: 10px;
-    }
-
-    .icons-header{
-        color: white;
-        font-size: 20px;
-        text-align:right;
-        text-decoration: none;
-        margin-right: 50px;
-    }
-
-    .top-nav{
-        background: transparent;
-        float: right; 
-        margin-top: 5px;
-        border-style: none;
-    }
-    .top-nav li{
-        display: inline-block;
-        
-    }
-    .top-nav li :hover{
-        color: red;
-        transition: 0.3s ease-in-out;
-    }
-   .top-header-logo{
-       display: inline;
-   }
-   /* .top-header-align{
-       padding-left:40%;
-} */
-
    .col-1_2{
        width: 47%;
        margin: 1%;
@@ -410,7 +267,6 @@ h1, h2{
         text-align: right;
         padding-right: 25px;
     }
-
 }
 
 /* Media queries - Responsive timeline menor que 600px wide */
@@ -422,7 +278,7 @@ h1, h2{
     /* Full-wide conatainer */
     .container{
         width: 100%;
-        padding-left: 7px;
+        padding-left: 50px;
         padding-right: 25px;
     }
     /* Fazer com que todos os ponteiros vão para a esquerda */
@@ -439,4 +295,54 @@ h1, h2{
     .right{
         left: 0%;
     }
+}
+
+@media screen and (max-width: 600px){
+    .article{
+        background: white; /* rgba(218, 211, 211, 0.267); */
+        padding-top: 20px;
+        padding-bottom: 30px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    
+    .boss-body{
+        border: 0.1px solid red;
+        box-shadow: 0.3px 3px 20px rgba(7, 7, 7, 0.555);
+        border-radius: 25px;
+        margin-top: 20px;
+        padding-bottom: 0px;
+        /* width: 75%; */
+    }
+    
+    .boss-body p {
+        padding-top: 20px;
+        padding-left: 20px;
+        width: 87%;
+        text-align: justify;
+    }
+    .text-article {
+        float: left;
+    }
+    
+    .image-content{
+        padding-right: 20px;
+    }
+    
+    .img-boss {
+        display: none;
+    }
+    
+    .boss-information{
+        /* padding-right: 60px; */
+        text-align: right;
+        padding-right: 34px;
+    }
+    
+    .boss-information-fernando{
+        /* padding-right: 60px; */
+        text-align: right;
+        padding-right: 44px;
+    }
+
 }

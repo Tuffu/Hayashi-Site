@@ -16,14 +16,12 @@ h1, h2{
     text-align: center;
 }
 
-
 #top-header{
     background: white;
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
-    border-bottom: 1px solid red;
 }
 
 #top-header p{
@@ -54,13 +52,15 @@ h1, h2{
 }
 
 .img-whats{
-    width: 8%;
+    width: 10%;
 }
+
+
 
 /*------------------ HEADER ------------------*/
 
 .topnav{
-    margin-top: 30px;
+    margin-top: 40px;
 }
 .topnav img{
     max-width: 25%;
@@ -79,11 +79,20 @@ h1, h2{
 
 #myLinks{
     float: right;
+    margin-top: 30px;
+    letter-spacing: 0.3px;
 }
 
 #myLinks a{
     text-decoration: none;
     color: black;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+#myLinks a:hover{
+    color: red;
+    transition: 0.3s ease-in-out;
 }
 
 .icons-header{
@@ -105,6 +114,10 @@ h1, h2{
     padding-top: 20px;
     padding-bottom: 20px;
     background: rgba(218, 211, 211, 0.267);
+}
+
+.article-content{
+    margin-top: 130px;
 }
 
 .article-content p{
@@ -324,16 +337,12 @@ h1, h2{
 }
 
 .copyright-content p{
-    color: black;
+    color: white;
     text-align: center;
 }
-.copyright-content a{
-    text-decoration: none;
-    color:white
-}
 
 
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 970px) {
 
     .whats-icon{
         position: fixed;
@@ -365,8 +374,18 @@ h1, h2{
         margin-right: 50px;
     }
 
+    .topnav{
+        position: fixed;
+        right: 0;
+        top: 0%;
+        width: 100%;
+        margin-top: 26px;
+        background: white;
+        border-bottom: 1px solid red;
+      }
+
     #section-article {
-        padding-top: 100px;
+        padding-top: 20px;
         padding-bottom: 20px;
         background: rgba(218, 211, 211, 0.267);
     }
@@ -385,12 +404,10 @@ h1, h2{
         color: red;
         transition: 0.3s ease-in-out;
     }
+
    .top-header-logo{
        display: inline;
    }
-   /* .top-header-align{
-       padding-left:40%;
-} */
 
    .col-1_2{
         width: 31%;
@@ -412,7 +429,7 @@ h1, h2{
     /* display: flex; */
     padding-top: 30px;
     padding-bottom: 120px;
-    margin-left: 15px;
+    margin-left: 110px;
 } 
 
 .contact-content{
@@ -487,28 +504,21 @@ h1, h2{
         text-align: left;
     }
 
-    .maps{
-        margin: 0 0 0 115px;
-    }
-
     .copyright-content{
         background: rgb(209, 0, 0);
         padding: 1px;
     }
 
     .copyright-content p{
-        color: black;
+        color: white;
         text-align: center;
-    }
-    .copyright-content a{
-        text-decoration: none;
-        color:white
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 1024px){
+
     .mobile-container {
-        max-width: 480px;
+        max-width: 380px;
         margin: auto;
         color: white;
         border-radius: 10px;
@@ -525,7 +535,7 @@ h1, h2{
     }
     
     .topnav a{
-        color: black;
+        color: red;
         padding:14px 16px;
         text-decoration: none;
         font-size: 17px;
@@ -539,12 +549,24 @@ h1, h2{
         right: 0;
         top: 0;
     }
-    
-    .topnav a:hover{
-        background-color: red;
-        color: black;
+
+    #myLinks{
+        float: right;
+        margin-top: 25px;
+        letter-spacing: 0.3px;
     }
     
+    #myLinks a{
+        text-decoration: none;
+        color: black;
+        margin-right: 130px;
+        font-weight: bold;
+    }
+    
+    #myLinks a:hover{
+        color: red;
+        transition: 0.3s ease-in-out;
+    }
     /*.active{
         max-width: 40%;
         padding-top: 13px; 
@@ -553,6 +575,98 @@ h1, h2{
     } */
     
     .active img{
-        max-width: 100%;
+        max-width: 95%;
+    }
+
+    .article-content {
+        margin-top: 30px;
+    }
+
+    .maps{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+
+    .logo-pais img {
+        padding-top: 4px;
+        max-width: 7%;
+        margin-right: 13px;
+    }
+
+    .mobile-container {
+        max-width: 480px;
+        margin: auto;
+        color: white;
+        border-radius: 10px;
+      }
+    
+    .topnav{
+        overflow: hidden;
+        background-color: white;
+        position: relative;
+    }
+
+    .topnav {
+        position: fixed;
+        right: 0;
+        top: 0%;
+        width: 100%;
+        margin-top: 26px;
+        background: white;
+        border-bottom: 1px solid red;
+    }
+    
+    .topnav #myLinks{
+        display: none;
+    }
+    
+    .topnav a{
+        color: red;
+        padding:14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    
+    .topnav a.icon{
+        background: block;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    #myLinks{
+        float: right;
+        margin-top: 25px;
+        letter-spacing: 0.3px;
+    }
+    
+    #myLinks a{
+        text-decoration: none;
+        color: black;
+        margin-right: 130px;
+        font-weight: bold;
+    }
+    
+    #myLinks a:hover{
+        color: red;
+        transition: 0.3s ease-in-out;
+    }
+    /*.active{
+        max-width: 40%;
+        padding-top: 13px; 
+        background-color: red;
+        color: red;
+    } */
+    
+    .active img{
+        max-width: 95%;
+    }
+    .maps{
+        display: none;
     }
 }
