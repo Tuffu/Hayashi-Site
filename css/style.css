@@ -197,64 +197,113 @@ h1, h2{
 
 /*------------------ CLIENT ------------------*/
 
-
 .client-section{
     background: rgba(218, 211, 211, 0.267);
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 30px;
     padding-left: 60px;
     padding-right: 60px;
 }
 
+.client-section h3{
+    text-align: center;
+    font-size: 35px;
+}
+
 .client-content{
     display: inline-block;
-}
-
-.client-body .col-1_2{ /* contorno do texto */
-    border: 0.1px solid red;
-    box-shadow: 0.3px 3px 20px rgba(7, 7, 7, 0.555);
-    border-radius: 25px;
-    margin-top: 20px;
-}
-
-.client-body h3{
     text-align: center;
     font-size: 30px;
-
 }
 
-.client-body h4{
-    color: black;
-    padding-right: 15px;
-    float: right;
+.mySlides {display: none}
+
+img {vertical-align: middle;}
+
+/*Slideshow container*/
+.slideshow-container{
+    margin: auto;
 }
 
-.client-body p{
-    color: black;
-    padding-top: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;
-    letter-spacing: 0.4px;
-    text-align: justify;
-    
+/*Next & Previous buttons*/
+
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
 }
 
-.image-content{
-   display: block; 
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
-.img-client{
-    border-radius: 75%;
-    max-width: 70px;
-    margin-right: 50px;
-    float: right;
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:houver{
+    background-color: rgba(0,0,0,0.8);
 }
 
-.client-information p{
-    color: black;
+/* Number text (1/4 etc) */
 
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+
+.numbertext{
+    color: red;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
 }
+
+/*The Dots/bullets indicators*/
+
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
 
 /*------------------ CONTACT ------------------*/
 
@@ -415,9 +464,6 @@ h1, h2{
         float: left;
    }
 
-   .client-body .col-1_2{
-       border-radius: 25px;
-   }
 
    /*------------------ CONTACT ------------------*/
 
@@ -579,7 +625,7 @@ h1, h2{
     }
 
     .article-content {
-        margin-top: 30px;
+        margin-top: 145px;
     }
 
     .maps{
@@ -662,6 +708,8 @@ h1, h2{
         background-color: red;
         color: red;
     } */
+
+    /* .prev, .next,.text {font-size: 11px} */
     
     .active img{
         max-width: 95%;

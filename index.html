@@ -268,41 +268,51 @@
             </div>
         </section>
         <section class="client-section">
+            <h3>Clientes Satisfeitos</h3>
             <div class="max-width">
                 <div class="client-content">
-                    <div class="client-body">
-                        <h3>Clientes Satisfeitos</h3>
-                        <div class="col-1_2">
-                            <p align="left">
-                                Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu
-                                sit. Vide electram sadipscing et per. Quem num gosta di mé, boa gentis num
-                            </p>
-                            <div class="image-content">
-                                <img class="img-client" src=" img/Clientes/jorge.png" alt="">
-                            </div>
-                            <div class="client-information">
-                                <h4>JORGE</h4>
-                                <p>Loja de conveniência Faria Lima</p>
-                            </div>
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                            <div class="numbertext">1 / 4</div>
+                            <iframe width="500" height="300" src="https://www.youtube.com/embed/lCUHqyztXgU"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
                         </div>
-                    </div>
-                    <div class="client-body">
-                        <div class="col-1_2">
-                            <p align="left">
-                                Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu
-                                sit. Vide electram sadipscing et per. Quem num gosta di mé, boa gentis num
-                            </p>
-                            <div class="image-content">
-                                <img class="img-client" src="img/Clientes/joao medeiros.gif" alt="">
-                            </div>
-                            <div class="client-information">
-                                <h4>JOÃO MEDEIROS</h4>
-                                <p>Loja de conveniência Faria Lima</p>
-                            </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 4</div>
+                            <iframe width="500" height="300" src="https://www.youtube.com/embed/kOIY0aBLQb4"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                         </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">3 / 4</div>
+                            <iframe width="500" height="300" src="https://www.youtube.com/embed/f-NMQNBpMEM"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">4 / 4</div>
+                            <iframe width="500" height="300" src="https://www.youtube.com/embed/f-NMQNBpMEM"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+
+                        <a class="prev" onclick="plusSlide(-1)"> &#10094;</a>
+                        <a class="next" onclick="plusSlide(-1)"> &#10095;</a>
                     </div>
+                    <br>
                 </div>
-            </div>
+                <div style="text-align: center;">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
         </section>
 
         <section id="contact-section">
@@ -388,5 +398,34 @@
         </div>
     </footer>
 </body>
+<script>
+    /* Vídeos*/
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+</script>
 
 </html

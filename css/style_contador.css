@@ -32,15 +32,15 @@ h1{
     transition: 0.6s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 400px){
 
     h1{
-        font-size: 35px;
+        font-size: 27px;
         padding-bottom: 20px;
     }
-    
+
     .contador-container {
-        margin-top: 15px;
+        margin-top: 160px;
     }
     
     .contador-article{
@@ -48,6 +48,8 @@ h1{
         box-shadow: 0.3px 3px 20px rgba(7, 7, 7, 0.555);
         border-radius: 25px;
         margin-top: 20px;   
+        margin-right: 0px;
+        margin-left: 0px;
         margin-bottom: 20px;
     }
     
@@ -57,7 +59,7 @@ h1{
     }
     
     .contador-article h2{
-        font-size: 30px;
+        font-size: 23px;
     }
     
     .contador-article:hover{
