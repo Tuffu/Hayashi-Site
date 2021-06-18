@@ -14,7 +14,8 @@
     <meta name"keywords" content="">
 
     <link rel="stylesheet" href="css/style.css">
-    <script src="script/script.js"></script>
+    <script src="script/responsive.js"></script>
+    <script src="script/slidevideio.js"></script>
 </head>
 
 <body>
@@ -273,7 +274,7 @@
                 <div class="client-content">
                     <div class="slideshow-container">
                         <div class="mySlides fade">
-                            <div class="numbertext">1 / 4</div>
+                            <!-- div class="numbertext">1 / 4</div> -->
                             <iframe width="500" height="300" src="https://www.youtube.com/embed/lCUHqyztXgU"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -281,29 +282,26 @@
                             </iframe>
                         </div>
                         <div class="mySlides fade">
-                            <div class="numbertext">2 / 4</div>
+                            <!-- <div class="numbertext">2 / 4</div> -->
                             <iframe width="500" height="300" src="https://www.youtube.com/embed/kOIY0aBLQb4"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
                         </div>
                         <div class="mySlides fade">
-                            <div class="numbertext">3 / 4</div>
+                            <!-- <div class="numbertext">3 / 4</div> -->
                             <iframe width="500" height="300" src="https://www.youtube.com/embed/f-NMQNBpMEM"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
                         </div>
                         <div class="mySlides fade">
-                            <div class="numbertext">4 / 4</div>
-                            <iframe width="500" height="300" src="https://www.youtube.com/embed/f-NMQNBpMEM"
+                            <!-- <div class="numbertext">4 / 4</div> -->
+                            <iframe width="500" height="300" src="https://www.youtube.com/embed/DdsEFF853Uo"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
                         </div>
-
-                        <a class="prev" onclick="plusSlide(-1)"> &#10094;</a>
-                        <a class="next" onclick="plusSlide(-1)"> &#10095;</a>
                     </div>
                     <br>
                 </div>
@@ -398,6 +396,7 @@
         </div>
     </footer>
 </body>
+
 <script>
     /* Vídeos*/
     var slideIndex = 1;
@@ -427,5 +426,4 @@
         dots[slideIndex - 1].className += " active";
     }
 </script>
-
-</html
+</html>

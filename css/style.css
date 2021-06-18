@@ -185,12 +185,6 @@ h1, h2{
     font-size: 20px;
 }
 
- /* .col-1_2{
-    width: 31%;
-    margin: 1% 2% 0 0;
-    float: left;
-}  */
-
 .client-body .col-1_2{
    border-radius: 25px;
 }
@@ -210,12 +204,6 @@ h1, h2{
     font-size: 35px;
 }
 
-.client-content{
-    display: inline-block;
-    text-align: center;
-    font-size: 30px;
-}
-
 .mySlides {display: none}
 
 img {vertical-align: middle;}
@@ -225,52 +213,10 @@ img {vertical-align: middle;}
     margin: auto;
 }
 
-/*Next & Previous buttons*/
-
-.prev, .next{
-    cursor: pointer;
-    position: absolute;
-    top: 50px;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-
-.next{
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:houver{
-    background-color: rgba(0,0,0,0.8);
-}
-
-/* Number text (1/4 etc) */
-
-.text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
-
-
-.numbertext{
-    color: red;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
+iframe {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 /*The Dots/bullets indicators*/
@@ -280,10 +226,14 @@ img {vertical-align: middle;}
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: rgb(236, 119, 119);
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
+}
+
+.dot:hover, .dot:focus {
+    background: red;
 }
 
 /* Fading animation */
@@ -392,22 +342,6 @@ img {vertical-align: middle;}
 
 
 @media screen and (min-width: 970px) {
-
-    .whats-icon{
-        position: fixed;
-        top: 500px;
-        left: 0px;
-    }
-    
-    .whats-img{
-        width: 10%;
-    }
-
-    .img-logo{
-        max-width: 17%;
-        padding-top: 5px;
-        float: left; 
-    }
 
     .logo-pais img{
         padding-top: 3px;
@@ -636,6 +570,26 @@ img {vertical-align: middle;}
 
 @media screen and (max-width: 400px){
 
+    /*-----------------HEADER MOBILE-----------------*/
+
+    
+    .whats-icon{
+        position: fixed;
+        top: 500px;
+        left: 0px;
+    }
+    
+    .whats-img{
+        width: 10%;
+    }
+
+    .img-logo{
+        max-width: 17%;
+        padding-top: 5px;
+        float: left; 
+    }
+
+
     .logo-pais img {
         padding-top: 4px;
         max-width: 7%;
@@ -709,8 +663,24 @@ img {vertical-align: middle;}
         color: red;
     } */
 
-    /* .prev, .next,.text {font-size: 11px} */
-    
+/*-----------------CLIENT MOBILE-----------------*/
+
+    .client-section h3{
+        font-size: 30px;
+    }
+
+    .client-content{
+        margin: 0;
+    }
+    iframe {
+        width: 250px;
+        height: 230px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+/*-----------------FOOTER MOBILE-----------------*/
+
     .active img{
         max-width: 95%;
     }
