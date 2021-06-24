@@ -47,15 +47,13 @@ h1, h2{
 }
 .whats-icon{
     position: fixed;
-    top: 600px;
+    top: 650px;
     left: 0px;
 }
 
 .img-whats{
     width: 10%;
 }
-
-
 
 /*------------------ HEADER ------------------*/
 
@@ -108,6 +106,21 @@ h1, h2{
     color: white;
 }
 
+/*------------------ Carousel ------------------*/
+
+
+.carousel-section{
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+
+.carousel-img{
+    width: 375px;
+    height: 300px;
+    transition: opacity .5s ease-in;
+
+}
+
 /*------------------ ARTICLE ------------------*/
 
 #section-article{
@@ -116,9 +129,9 @@ h1, h2{
     background: rgba(218, 211, 211, 0.267);
 }
 
-.article-content{
+/*.article-content{
     margin-top: 130px;
-}
+}*/
 
 .article-content p{
     text-align: justify;
@@ -204,7 +217,7 @@ h1, h2{
     font-size: 35px;
 }
 
-.mySlides {display: none}
+
 
 img {vertical-align: middle;}
 
@@ -239,9 +252,9 @@ iframe {
 /* Fading animation */
 .fade {
     -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
+    -webkit-animation-duration: 2.5s;
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 2.5s;
   }
   
   @-webkit-keyframes fade {
@@ -398,6 +411,19 @@ iframe {
         float: left;
    }
 
+   
+.carousel-section{
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+
+.carousel-img{
+    width: 1262px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 
    /*------------------ CONTACT ------------------*/
 
@@ -553,13 +579,21 @@ iframe {
         background-color: red;
         color: red;
     } */
+
+    .carousel-section{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .carousel-img{
+        width: 760px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     
     .active img{
         max-width: 95%;
-    }
-
-    .article-content {
-        margin-top: 145px;
     }
 
     .maps{
@@ -568,7 +602,7 @@ iframe {
 
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 414px){
 
     /*-----------------HEADER MOBILE-----------------*/
 
@@ -662,8 +696,23 @@ iframe {
         background-color: red;
         color: red;
     } */
-
+/*-----------------SLIDE MOBILE-----------------*/
+    .carousel-section{
+        margin-top: 150px;
+        margin-bottom: 20px;
+    }
+    
+    .carousel-img{
+        width: 360px;
+        height: 300px;
+        transition: opacity .5s ease-in;
+    
+    }
 /*-----------------CLIENT MOBILE-----------------*/
+
+.article-content {
+    margin-top: 0px;
+}
 
     .client-section h3{
         font-size: 30px;
