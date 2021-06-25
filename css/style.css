@@ -47,12 +47,12 @@ h1, h2{
 }
 .whats-icon{
     position: fixed;
-    top: 650px;
+    top: 550px;
     left: 0px;
 }
 
 .img-whats{
-    width: 10%;
+    width: 13%;
 }
 
 /*------------------ HEADER ------------------*/
@@ -61,7 +61,7 @@ h1, h2{
     margin-top: 40px;
 }
 .topnav img{
-    max-width: 25%;
+    max-width: 20%;
 }
 
 
@@ -117,8 +117,6 @@ h1, h2{
 .carousel-img{
     width: 375px;
     height: 300px;
-    transition: opacity .5s ease-in;
-
 }
 
 /*------------------ ARTICLE ------------------*/
@@ -190,7 +188,6 @@ h1, h2{
     float: left;
     padding-right: 20px;
     font-size: 40px;
- 
 }
 
 .service-area h3{
@@ -405,6 +402,12 @@ iframe {
        display: inline;
    }
 
+   #myLinks {
+    float: right;
+    margin-top: 20px;
+    letter-spacing: 0.3px;
+}
+
    .col-1_2{
         width: 31%;
         margin: 1% 1% 0 1%;
@@ -413,13 +416,13 @@ iframe {
 
    
 .carousel-section{
-    margin-top: 130px;
+    margin-top: 110px;
     margin-bottom: 20px;
 }
 
 .carousel-img{
-    width: 1262px;
-    height: 500px;
+    width: auto;
+    height: 300px;
     margin-left: auto;
     margin-right: auto;
 
@@ -561,6 +564,7 @@ iframe {
         margin-top: 25px;
         letter-spacing: 0.3px;
     }
+    
     
     #myLinks a{
         text-decoration: none;
