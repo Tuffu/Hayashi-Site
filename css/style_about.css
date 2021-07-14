@@ -80,11 +80,11 @@ h1, h2{
     border: 4px solid black;
     top: 100px;
     border-radius: 50px;
-    z-index: -1;
+    z-index: 1;
 }
 
 .left{
-    left: -2%;
+    left: 0%;
 }
  /* -------SETAS------- */
 /* .left::before{
@@ -101,7 +101,7 @@ h1, h2{
 } */
 
 .right{
-    right: -52%;
+    right: -50%;
 }
 
 /* -------SETAS------- */

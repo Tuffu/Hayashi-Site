@@ -95,12 +95,11 @@ h1, h2{
 }
 
 .icons-header{
-    color: blue;
+    color: white;
     font-size: 20px;
     text-align:right;
     margin-right: 45px;
     text-decoration: none;
-    
 }
 
 .icons-header a{
@@ -175,6 +174,7 @@ h1, h2{
 .service-area{
     padding-bottom: 10px;
     text-align: justify;
+    padding-right: 20px;
 }
 /* .media{ espaçamento das letras dos ícones
     padding-left: 50px; 
@@ -612,7 +612,6 @@ iframe {
 
     /*-----------------HEADER MOBILE-----------------*/
 
-    
     .whats-icon{
         position: fixed;
         top: 500px;
@@ -657,6 +656,7 @@ iframe {
         margin-top: 26px;
         background: white;
         border-bottom: 1px solid red;
+        z-index: 1;
     }
     
     .topnav #myLinks{
@@ -665,7 +665,7 @@ iframe {
     
     .topnav a{
         color: red;
-        padding:14px 16px;
+        padding: 12px 16px;
         text-decoration: none;
         font-size: 17px;
         display: block;
@@ -675,7 +675,7 @@ iframe {
         background: block;
         display: block;
         position: absolute;
-        right: 0;
+        right: 20px;
         top: 0;
     }
 
@@ -704,13 +704,13 @@ iframe {
     } */
 /*-----------------SLIDE MOBILE-----------------*/
     .carousel-section{
-        margin-top: 150px;
+        margin-top: 125px;
         margin-bottom: 20px;
     }
     
     .carousel-img{
-        width: 360px;
-        height: 300px;
+        width: 355px;
+        height: 165px;
         transition: opacity .5s ease-in;
     
     }
@@ -737,7 +737,7 @@ iframe {
 /*-----------------FOOTER MOBILE-----------------*/
 
     .active img{
-        max-width: 95%;
+        max-width: 75%;
     }
     .maps{
         display: none;

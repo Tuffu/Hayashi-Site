@@ -24,7 +24,7 @@ h1, h2{
 
 .background-section{
     background: rgba(218, 211, 211, 0.267);
-    margin-top: 100px;
+    margin-top: 10px;
 }
 
 /* DASHBOARD */
@@ -34,7 +34,7 @@ h1, h2{
 
 .img-dashboard{
     width: 200px;
-    margin-left: 100px;
+    margin-left: 80px;
     float: left;
 }
 
@@ -54,7 +54,7 @@ h1, h2{
 
 .img-comandas{
     width: 200px;
-    margin-right: 100px;
+    margin-right: 80px;
     float: right;
 }
 
@@ -162,7 +162,7 @@ h1, h2{
 
     .background-section{
         background: rgba(218, 211, 211, 0.267);
-        margin-top: 100px;
+        margin-top: 10px;
     }
 
     /* DASHBOARD */
@@ -178,7 +178,7 @@ h1, h2{
     }
 
     .title-dashboard{
-        padding-top: 25px;  
+        padding-top: 75px;  
         text-align: center;
         font-size: 25px;
     }
@@ -239,7 +239,7 @@ h1, h2{
     }
 
     .title-pdv{
-        padding-top: 40px;
+        padding-top: 20px;
         text-align: center;
         font-size: 25px;
     }
