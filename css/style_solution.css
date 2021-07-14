@@ -96,7 +96,7 @@ h1, h2{
 
 .img-pdv{
     width: 300px;
-    margin-left: 37px;
+    margin-left: 38px;
     padding-top: 25px;
     float: left;
     margin-bottom: 25px;
@@ -178,13 +178,13 @@ h1, h2{
     }
 
     .title-dashboard{
-        padding-top: 75px;  
+        padding-top: 90px;  
         text-align: center;
         font-size: 25px;
     }
     .title-dashboard p{
         padding-top: 20px;
-        margin-right: 100px;
+        margin-right: 28px;
         text-align: justify;
     }
 
@@ -203,8 +203,8 @@ h1, h2{
     }
     .title-comandas p{
         padding-top: 20px;
-        margin-left: 100px;
-        margin-right: 0px;
+        margin-left: 28px;
+        margin-right: 28px;
         text-align: justify;
     }
 
@@ -212,8 +212,8 @@ h1, h2{
 
     .img-sistema{
         width: 350px;
-        margin-left: 100px;
-        padding-top: 70px;
+        margin-left: 38px;
+        padding-top: 50px;
         float: left;
     }
 
@@ -223,9 +223,9 @@ h1, h2{
         font-size: 25px;
     }
     .title-sistema p{
-        padding-top: 30px;
-        margin-left: 470px;
-        margin-right: 100px;
+        padding-top: 20px;
+        margin-left: 20px;
+        margin-right: 28px;
         text-align: justify;
     }
 
@@ -233,8 +233,8 @@ h1, h2{
 
     .img-pdv{
         width: 350px;
-        margin-right: 100px;
-        padding-top: 110px;
+        margin-right: 35px;
+        padding-top: 30px;
         float: right;
     }
 
@@ -245,8 +245,8 @@ h1, h2{
     }
     .title-pdv p{
         padding-top: 20px;
-        margin-left: 100px;
-        margin-right: 470px;
+        margin-left: 28px;
+        margin-right: 28px;
         text-align: justify;    
     }
 

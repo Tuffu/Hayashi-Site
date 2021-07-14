@@ -1,5 +1,5 @@
 .suporte-section {
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .suporte-background{
@@ -7,7 +7,7 @@
 }
 
 .suporte-content{
-    padding-top: 5px;
+    padding-top: 20px;
     padding-bottom: 25px;
 }
 
@@ -53,6 +53,29 @@
     transition: 0.6s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
+@media screen and (max-width: 970px) {
+    .suporte-section {
+        margin-top: 10px;
+    }
+
+    .suporte-article {
+        border: 0.1px solid red;
+        box-shadow: 0.3px 3px 20px rgba(7, 7, 7, 0.555);
+        border-radius: 25px;
+        margin-top: 20px;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    .suporte-article h2{
+        font-size: 22px;
+    }
+
+    .suporte-img{
+        display: none;
+    }
+}
 
 @media screen and (max-width: 400px) {
     .suporte-section {
