@@ -142,6 +142,7 @@ h1, h2{
 
 #solution-content, p{ 
     color: rgb(139, 139, 139);
+    margin: 0 20px;
     
 }
 
@@ -200,10 +201,23 @@ h1, h2{
    border-radius: 25px;
 }
 
+/* APLICATIVOS HAYASHI */
+
+.app-section{
+    display: flex;
+    text-align: justify;
+    background-color: rgba(218, 211, 211, 0.267);;
+}
+
+.app-content{
+   
+    margin: 20px 10px;
+}
+
 /*------------------ CLIENT ------------------*/
 
 .client-section{
-    background: rgba(218, 211, 211, 0.267);
+    
     padding-top: 10px;
     padding-bottom: 30px;
     padding-left: 60px;
@@ -430,6 +444,17 @@ iframe {
 
 }
 
+.app-section{
+    display: flex;
+    text-align: justify;
+    background-color: rgba(218, 211, 211, 0.267);;
+}
+
+.app-content{
+    float: left;
+    margin: 20px 10px;
+}
+
    /*------------------ CONTACT ------------------*/
 
 .contact-title{
@@ -602,6 +627,16 @@ iframe {
         max-width: 95%;
     }
 
+    .app-section{
+        display: flex;
+        text-align: justify;
+        background-color: rgba(218, 211, 211, 0.267);;
+    }
+    
+    .app-content{
+        margin: 20px 10px;
+    }
+
     .maps{
         display: none;
     }
@@ -702,6 +737,7 @@ iframe {
         background-color: red;
         color: red;
     } */
+
 /*-----------------SLIDE MOBILE-----------------*/
     .carousel-section{
         margin-top: 125px;
@@ -713,6 +749,16 @@ iframe {
         height: 165px;
         transition: opacity .5s ease-in;
     
+    }
+
+    .app-section{
+        display: flex;
+        text-align: justify;
+        background-color: rgba(218, 211, 211, 0.267);;
+    }
+    
+    .app-content{
+        margin: 20px 10px;
     }
 /*-----------------CLIENT MOBILE-----------------*/
 
