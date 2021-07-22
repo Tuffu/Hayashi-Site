@@ -46,15 +46,6 @@ h1, h2{
     display: block;
     clear: both;
 }
-.whats-icon{
-    position: fixed;
-    top: 550px;
-    left: 0px;
-}
-
-.img-whats{
-    width: 13%;
-}
 
 /*------------------ HEADER ------------------*/
 
@@ -646,16 +637,6 @@ iframe {
 @media screen and (max-width: 414px){
 
     /*-----------------HEADER MOBILE-----------------*/
-
-    .whats-icon{
-        position: fixed;
-        top: 500px;
-        left: 0px;
-    }
-    
-    .whats-img{
-        width: 10%;
-    }
 
     .img-logo{
         max-width: 17%;
