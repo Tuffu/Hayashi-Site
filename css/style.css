@@ -652,7 +652,7 @@ iframe {
     }
 
     .mobile-container {
-        max-width: 480px;
+        max-width: 414px;
         margin: auto;
         color: white;
         border-radius: 10px;
