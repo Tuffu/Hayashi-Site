@@ -1,0 +1,127 @@
+/* SEÇÃO DELIVERY */
+
+#delivery-section {
+    background-color: rgb(194, 7, 7);
+    padding         : 150px 0 20px 0;
+}
+
+.delivery-container {
+    margin-left : 100px;
+    margin-right: auto;
+}
+
+.delivery-content h3 {
+    border     : 2px solid white;
+    width      : 340px;
+    height     : 40px;
+    padding    : 15px 0 0 0;
+    font-size  : 27px;
+    text-align : center;
+    color      : white;
+    font-family: arial;
+}
+
+.delivery-content p {
+    color         : white;
+    font-size     : 25px;
+    width         : 300px;
+    letter-spacing: 0.5px;
+    text-align    : center;
+}
+
+.delivery-video iframe {
+    margin-left : 450px;
+    margin-right: auto;
+    display     : block;
+    margin-top  : -200px;
+}
+
+.delivery-button {
+    background-color: #00A558;
+    border          : 2px solid white;
+    border-radius   : 15px;
+    width           : 200px;
+    height          : 50px;
+    padding         : 20px 0 0 0;
+    text-align      : center;
+    font-size       : 15px;
+    margin          : -70px 0 30px 55px;
+    box-shadow      : 1px 0px 5px black;
+}
+
+.delivery-button:hover {
+    background-color: #038548;
+    transition      : ease 0.5s;
+}
+
+.delivery-button a {
+    text-decoration: none;
+    color          : white;
+    font-weight    : bold;
+}
+
+/* SEÇÃO APP */
+
+#app-section-delivery {
+    background: rgba(218, 211, 211, 0.267);
+    text-align: center;
+}
+
+.app-container-delivery {
+    margin-left : 100px;
+    margin-right: 100px;
+    padding-top : 25px;
+}
+
+.app-content-delivery {
+    float     : left;
+    text-align: initial;
+}
+
+.app-content-delivery h1 {
+    width         : 300px;
+    height        : 15px;
+    padding       : 15px 0 0px 18px;
+    font-size     : 24px;
+    font-weight   : 600;
+    text-align    : initial;
+    letter-spacing: 1.5px;
+    color         : red;
+}
+
+.app-content-delivery p {
+    color         : black;
+    font-size     : 20px;
+    width         : 270px;
+    letter-spacing: 0.5px;
+    padding-top   : 22px;
+    font-family   : "Poppins", sans-serif;
+}
+
+.delivery-img {
+    width: 20%;
+}
+
+.delivery-button-aplication {
+    background-color: #00A558;
+    border          : 2px solid white;
+    border-radius   : 15px;
+    width           : 250px;
+    height          : 35px;
+    padding         : 15px 0 0 0;
+    text-align      : center;
+    font-size       : 15px;
+    margin-left     : auto;
+    margin-right    : auto;
+    box-shadow      : 1px 0px 5px black;
+}
+
+.delivery-button-aplication a {
+    color          : white;
+    text-decoration: none;
+}
+
+.delivery-button-aplication:hover {
+    background-color: #038548;
+    transition      : ease 0.5s;
+}
