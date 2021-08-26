@@ -602,6 +602,21 @@ iframe {
 
 @media screen and (max-width: 1024px) {
 
+    .text-pag {
+        color     : white;
+        width     : auto;
+        /*margin-top: -30px; */
+        text-align: justify;
+    }
+
+    .text-pag h1 {
+        font-size: 25px;
+    }
+
+    .text-pag p {
+        color: white;
+    }
+
     .mobile-container {
         max-width    : 380px;
         margin       : auto;
@@ -664,13 +679,14 @@ iframe {
     .carousel-section {
         margin-top   : 10px;
         margin-bottom: 20px;
+        background: rgb(194, 7, 7);
     }
 
     .carousel-img {
-        width       : 760px;
+        width       : auto;
         height      : 300px;
-        margin-left : auto;
-        margin-right: auto;
+        /* margin-left : auto;
+        margin-right: auto; */
     }
 
     .active img {
@@ -682,6 +698,12 @@ iframe {
         text-align      : justify;
         background-color: rgba(218, 211, 211, 0.267);
         ;
+    }
+
+    .contact-container .col-1_2 {
+        /* width: 25%; */
+        margin: 1% 1% 0 1%;
+        float: none;
     }
 
     .app-content {
