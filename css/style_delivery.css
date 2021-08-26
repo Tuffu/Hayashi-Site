@@ -2,12 +2,12 @@
 
 #delivery-section {
     background-color: rgb(194, 7, 7);
-    padding         : 150px 0 20px 0;
+    padding         : 20px 0 20px 0;
 }
 
 .delivery-container {
     margin-left : 100px;
-    margin-right: auto;
+    margin-right: 100px;
 }
 
 .delivery-content h3 {
@@ -32,7 +32,7 @@
 .delivery-video iframe {
     margin-left : 450px;
     margin-right: auto;
-    display     : block;
+    display     : none;
     margin-top  : -200px;
 }
 
@@ -47,6 +47,7 @@
     font-size       : 15px;
     margin          : -70px 0 30px 55px;
     box-shadow      : 1px 0px 5px black;
+    float           : right;
 }
 
 .delivery-button:hover {
@@ -102,13 +103,17 @@
     width: 20%;
 }
 
+#aplication-delivery {
+    padding-bottom: 25px;
+}
+
 .delivery-button-aplication {
     background-color: #00A558;
     border          : 2px solid white;
     border-radius   : 15px;
     width           : 250px;
     height          : 35px;
-    padding         : 15px 0 0 0;
+    padding         : 10px 0 0 0;
     text-align      : center;
     font-size       : 15px;
     margin-left     : auto;
@@ -124,4 +129,317 @@
 .delivery-button-aplication:hover {
     background-color: #038548;
     transition      : ease 0.5s;
+}
+
+.delivery-container-title h1 {
+    color: white;
+}
+
+.delivery-container-plan {
+    margin-left: 100px;
+}
+
+/* PLANOS DELIVERY */
+
+#delivery-plan {
+    text-align      : center;
+    background-color: rgb(194, 7, 7);
+    padding         : 2px 0 30px;
+}
+
+.card-plan {
+    float        : left;
+    margin-right : 85px;
+    padding      : 0px 0px 0px 0px;
+    border       : 1px solid transparent;
+    border-radius: 10px;
+}
+
+.card-plan h3 {
+    background-color: white;
+    width           : 721px;
+    font-size       : 25px;
+    padding         : 20px 0;
+    border-radius   : 6px 6px 0 0;
+    margin-bottom   : 23px;
+}
+
+.card-plan h4 {
+    background: rgb(218, 211, 211);
+    color     : black;
+    font-size : 25px;
+    margin    : -24px 0 0px 0;
+    padding   : 20px;
+}
+
+.card-plan p {
+    color         : black;
+    padding-bottom: 20px;
+    background    : rgb(218, 211, 211);
+    margin        : 0px 0 0px 0;
+    font-weight   : 800;
+}
+
+.card-button {
+    background-color: #00A558;
+    border-radius   : 0px 0px 7px 7px;
+    padding         : 10px 0;
+}
+
+.card-button a {
+    text-decoration: none;
+    color          : white;
+}
+
+.card-button:hover {
+    background-color: #038548;
+    transition      : ease 0.5s;
+}
+
+@media screen and (min-width: 970px) {
+
+    #delivery-section {
+        background-color: rgb(194, 7, 7);
+        padding         : 150px 0 20px 0;
+    }
+
+    .delivery-container {
+        margin-left : 100px;
+        margin-right: auto;
+    }
+
+    .delivery-content h3 {
+        border     : 2px solid white;
+        width      : 340px;
+        height     : 40px;
+        padding    : 15px 0 0 0;
+        font-size  : 27px;
+        text-align : center;
+        color      : white;
+        font-family: arial;
+    }
+
+    .delivery-content p {
+        color         : white;
+        font-size     : 25px;
+        width         : 300px;
+        letter-spacing: 0.5px;
+        text-align    : center;
+    }
+
+    .delivery-video iframe {
+        margin-left : 450px;
+        margin-right: auto;
+        display     : block;
+        margin-top  : -200px;
+    }
+
+    .delivery-button {
+        background-color: #00A558;
+        border          : 2px solid white;
+        border-radius   : 15px;
+        width           : 200px;
+        height          : 50px;
+        padding         : 20px 0 0 0;
+        text-align      : center;
+        font-size       : 15px;
+        margin          : -70px 0 30px 55px;
+        box-shadow      : 1px 0px 5px black;
+        float           : none;
+    }
+
+    .delivery-button:hover {
+        background-color: #038548;
+        transition      : ease 0.5s;
+    }
+
+    .delivery-button a {
+        text-decoration: none;
+        color          : white;
+        font-weight    : bold;
+    }
+
+    /* PLANOS DELIVERY */
+
+    #delivery-plan {
+        text-align      : center;
+        background-color: rgb(194, 7, 7);
+        padding         : 2px 0 30px;
+    }
+
+    .card-plan {
+        float        : left;
+        margin-right : 10px;
+        padding      : 0px 0px 0px 0px;
+        border       : 1px solid transparent;
+        border-radius: 10px;
+    }
+
+    .card-plan h3 {
+        background-color: white;
+        width           : 320px;
+        font-size       : 25px;
+        padding         : 20px 0;
+        border-radius   : 6px 6px 0 0;
+        margin-bottom   : 23px;
+    }
+
+    .card-plan h4 {
+        background: rgb(218, 211, 211);
+        color     : black;
+        font-size : 25px;
+        margin    : -24px 0 0px 0;
+        padding   : 20px;
+    }
+
+    .card-plan p {
+        color         : black;
+        padding-bottom: 20px;
+        background    : rgb(218, 211, 211);
+        margin        : 0px 0 0px 0;
+        font-weight   : 800;
+    }
+
+    .card-button {
+        background-color: #00A558;
+        border-radius   : 0px 0px 7px 7px;
+        padding         : 10px 0;
+    }
+
+    .card-button a {
+        text-decoration: none;
+        color          : white;
+    }
+
+    .card-button:hover {
+        background-color: #038548;
+        transition      : ease 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+
+    #delivery-section {
+        background-color: rgb(194, 7, 7);
+        padding         : 150px 0 20px 0;
+    }
+
+    .delivery-container {
+        margin-left : 100px;
+        margin-right: auto;
+    }
+
+    .delivery-content h3 {
+        border     : 2px solid white;
+        width      : 340px;
+        height     : 40px;
+        padding    : 15px 0 0 0;
+        font-size  : 27px;
+        text-align : center;
+        color      : white;
+        font-family: arial;
+    }
+
+    .delivery-content p {
+        color         : white;
+        font-size     : 25px;
+        width         : 300px;
+        letter-spacing: 0.5px;
+        text-align    : center;
+    }
+
+    .delivery-video iframe {
+        margin-left : 450px;
+        margin-right: auto;
+        display     : none;
+        margin-top  : -200px;
+    }
+
+    .delivery-button {
+        background-color: #00A558;
+        border          : 2px solid white;
+        border-radius   : 15px;
+        width           : 200px;
+        height          : 50px;
+        padding         : 20px 0 0 0;
+        text-align      : center;
+        font-size       : 15px;
+        margin          : -70px 0 30px 55px;
+        box-shadow      : 1px 0px 5px black;
+        float           : none;
+    }
+
+    .delivery-button:hover {
+        background-color: #038548;
+        transition      : ease 0.5s;
+    }
+
+    .delivery-button a {
+        text-decoration: none;
+        color          : white;
+        font-weight    : bold;
+    }
+
+    /* PLANOS DELIVERY */
+
+    #delivery-plan {
+        text-align      : center;
+        background-color: rgb(194, 7, 7);
+        padding         : 2px 0 30px;
+    }
+
+    .delivery-container-plan {
+        margin-left: 7px;
+    }
+
+    .card-plan {
+        float        : left;
+        margin-right : 85px;
+        padding      : 0px 0px 0px 0px;
+        border       : 1px solid transparent;
+        border-radius: 10px;
+    }
+
+    .card-plan h3 {
+        background-color: white;
+        width           : 345px;
+        font-size       : 25px;
+        padding         : 20px 0;
+        border-radius   : 6px 6px 0 0;
+        margin-bottom   : 23px;
+    }
+
+    .card-plan h4 {
+        background: rgb(218, 211, 211);
+        color     : black;
+        font-size : 25px;
+        margin    : -24px 0 0px 0;
+        padding   : 20px;
+    }
+
+    .card-plan p {
+        color         : black;
+        padding-bottom: 20px;
+        background    : rgb(218, 211, 211);
+        margin        : 0px 0 0px 0;
+        font-weight   : 800;
+    }
+
+    .card-button {
+        background-color: #00A558;
+        border-radius   : 0px 0px 7px 7px;
+        padding         : 10px 0;
+    }
+
+    .card-button a {
+        text-decoration: none;
+        color          : white;
+    }
+
+    .card-button:hover {
+        background-color: #038548;
+        transition      : ease 0.5s;
+    }
+
 }
