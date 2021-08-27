@@ -388,8 +388,8 @@ iframe {
         margin-top: -400px;
         text-align: justify;
     }
-    
-    .text-pag h1{
+
+    .text-pag h1 {
         font-size: 27px;
     }
 
@@ -459,9 +459,9 @@ iframe {
 
     .contact-container {
         /* display: flex; */
-        padding-top   : 30px;
-        padding-bottom: 120px;
-        margin-left   : 110px;
+        padding-top      : 30px;
+        padding-bottom   : 120px;
+        /* margin-left   : 110px; */
     }
 
     .col-1_2 {
@@ -603,10 +603,10 @@ iframe {
 @media screen and (max-width: 1024px) {
 
     .text-pag {
-        color     : white;
-        width     : auto;
+        color       : white;
+        width       : auto;
         /*margin-top: -30px; */
-        text-align: justify;
+        text-align  : justify;
     }
 
     .text-pag h1 {
@@ -679,14 +679,14 @@ iframe {
     .carousel-section {
         margin-top   : 10px;
         margin-bottom: 20px;
-        background: rgb(194, 7, 7);
+        background   : rgb(194, 7, 7);
     }
 
     .carousel-img {
-        width       : auto;
-        height      : 300px;
+        width          : auto;
+        height         : 300px;
         /* margin-left : auto;
-        margin-right: auto; */
+        margin-right   : auto; */
     }
 
     .active img {
@@ -703,7 +703,7 @@ iframe {
     .contact-container .col-1_2 {
         /* width: 25%; */
         margin: 1% 1% 0 1%;
-        float: none;
+        float : none;
     }
 
     .app-content {
@@ -725,6 +725,7 @@ iframe {
         width     : 365px;
         margin-top: -30px;
         text-align: justify;
+        width: auto;
     }
 
     .text-pag h1 {
@@ -824,10 +825,11 @@ iframe {
     }
     */
     .carousel-img {
-        width     : 355px;
-        height    : 165px;
-        transition: opacity .5s ease-in;
-
+        width       : auto;
+        height      : 165px;
+        transition  : opacity .5s ease-in;
+        margin-left : auto;
+        margin-right: auto;
     }
 
     .carousel-section {
