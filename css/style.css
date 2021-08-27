@@ -10,7 +10,7 @@ p,
 b {
     font-size     : 15px;
     letter-spacing: 0.2px;
-
+    font-weight: 800;
 }
 
 h1,
@@ -129,7 +129,8 @@ h2 {
 
 .article-content p {
     text-align  : justify;
-    color       : rgb(139, 139, 139);
+    /* color       : rgb(139, 139, 139); */
+    color: black;
     margin-left : 20px;
     margin-right: 20px;
 }
@@ -138,7 +139,8 @@ h2 {
 
 #solution-content,
 p {
-    color : rgb(139, 139, 139);
+    /* color : rgb(139, 139, 139); */
+    color: black;
     margin: 0 20px;
 
 }
