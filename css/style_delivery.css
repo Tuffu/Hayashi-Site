@@ -6,7 +6,7 @@
 }
 
 .delivery-container {
-    margin-left : 100px;
+    /* margin-left : 100px; */
     margin-right: 100px;
 }
 
@@ -29,12 +29,12 @@
     text-align    : center;
 }
 
-.delivery-video iframe {
+/* .delivery-video iframe {
     margin-left : 450px;
-    margin-right: auto;
-    display     : none;
+    margin-right: auto; 
+    display     : none; 
     margin-top  : -200px;
-}
+} */
 
 .delivery-button {
     background-color: #00A558;
@@ -68,15 +68,14 @@
     text-align: center;
 }
 
-.app-container-delivery {
-    margin-left : 100px;
-    margin-right: 100px;
-    padding-top : 25px;
-}
+/* .app-container-delivery {
+    padding-top: 25px;
+} */
 
 .app-content-delivery {
     float     : left;
     text-align: initial;
+    margin-left: 100px;
 }
 
 .app-content-delivery h1 {
@@ -322,11 +321,11 @@
 
     #delivery-section {
         background-color: rgb(194, 7, 7);
-        padding         : 150px 0 20px 0;
+        padding         : 150px 0 1px 0;
     }
 
     .delivery-container {
-        margin-left : 100px;
+        /*  margin-left : 100px; */
         margin-right: auto;
     }
 
@@ -334,6 +333,7 @@
         border     : 2px solid white;
         width      : 340px;
         height     : 40px;
+        margin     : 0 auto 25px auto;
         padding    : 15px 0 0 0;
         font-size  : 27px;
         text-align : center;
@@ -350,10 +350,8 @@
     }
 
     .delivery-video iframe {
-        margin-left : 450px;
-        margin-right: auto;
-        display     : none;
-        margin-top  : -200px;
+        width     : 350px;
+        margin-top: 40px;
     }
 
     .delivery-button {
@@ -365,7 +363,7 @@
         padding         : 20px 0 0 0;
         text-align      : center;
         font-size       : 15px;
-        margin          : -70px 0 30px 55px;
+        margin          : 40px auto 30px auto;
         box-shadow      : 1px 0px 5px black;
         float           : none;
     }
@@ -383,6 +381,10 @@
 
     /* PLANOS DELIVERY */
 
+    .delivery-container-title h1{
+        font-size: 25px;
+    }
+
     #delivery-plan {
         text-align      : center;
         background-color: rgb(194, 7, 7);
@@ -392,11 +394,19 @@
     .delivery-container-plan {
         margin-left: 7px;
     }
+    
+    .app-content-delivery {
+        margin: 0px;
+    }
+
+    .aplication-delivery-content h1 {
+        font-size: 25px;
+    }
 
     .card-plan {
         float        : left;
         margin-right : 85px;
-        padding      : 0px 0px 0px 0px;
+        padding      : 0px 0px 15px 0px;
         border       : 1px solid transparent;
         border-radius: 10px;
     }

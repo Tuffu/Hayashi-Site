@@ -399,6 +399,13 @@ iframe {
         color: white;
     }
 
+    .mensalidade p{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 30px;
+        text-align: center;
+    }
+
     .logo-pais img {
         padding-top : 3px;
         max-width   : 2.3%;
@@ -619,6 +626,13 @@ iframe {
         color: white;
     }
 
+    .mensalidade p {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 30px;
+        text-align: center;
+    }
+
     .mobile-container {
         max-width    : 380px;
         margin       : auto;
@@ -730,12 +744,20 @@ iframe {
         width: auto;
     }
 
+
     .text-pag h1 {
         font-size: 25px;
     }
 
     .text-pag p {
         color: white;
+    }
+
+    .mensalidade p{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 30px;
+        text-align: center;
     }
 
     .img-logo {
