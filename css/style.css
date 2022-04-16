@@ -25,7 +25,7 @@ h2 {
     left      : 0;
     top       : 0;
     width     : 100%;
-    z-index   : 1;
+    z-index   : 1300;
 }
 
 #top-header p {
@@ -105,11 +105,6 @@ h2 {
 /*------------------ Carousel ------------------*/
 
 
-.carousel-section {
-    margin-top   : 130px;
-    margin-bottom: 20px;
-}
-
 .carousel-img {
     width : 375px;
     height: 300px;
@@ -118,7 +113,7 @@ h2 {
 /*------------------ ARTICLE ------------------*/
 
 #section-article {
-    padding-top   : 20px;
+    padding-top   : 16px;
     padding-bottom: 20px;
     background    : rgba(187, 182, 182, 0.267);
 }
@@ -433,7 +428,7 @@ iframe {
 
     #section-article {
         display       : block;
-        padding-top   : 20px;
+        padding-top   : 130px;
         padding-bottom: 20px;
         background    : rgba(218, 211, 211, 0.267);
     }
@@ -477,13 +472,6 @@ iframe {
         width : 30%;
         margin: 1% 1% 0 1%;
         float : left;
-    }
-
-
-    .carousel-section {
-        background-color: rgb(194, 7, 7);
-        margin-top      : 86px;
-        margin-bottom   : 0px;
     }
 
     .carousel-content {
@@ -692,12 +680,6 @@ iframe {
         color: red;
     } */
 
-    .carousel-section {
-        margin-top   : 10px;
-        margin-bottom: 20px;
-        background   : rgb(194, 7, 7);
-    }
-
     .carousel-img {
         width          : auto;
         height         : 300px;
@@ -843,23 +825,13 @@ iframe {
     } */
 
     /*-----------------SLIDE MOBILE-----------------*/
-    /* .carousel-section {
-        margin-top   : 125px;
-        margin-bottom: 20px;
-    }
-    */
+
     .carousel-img {
         width       : auto;
         height      : 165px;
         transition  : opacity .5s ease-in;
         margin-left : auto;
         margin-right: auto;
-    }
-
-    .carousel-section {
-        background-color: rgb(194, 7, 7);
-        margin-top      : 120px;
-        margin-bottom   : 0px;
     }
 
     .carousel-content {
